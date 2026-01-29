@@ -2,7 +2,7 @@
 gantt
     dateFormat  YYYY-MM-DD
     title Participation Citoyenne – Master 2 Humanités Numériques
-    axisFormat  
+    axisFormat  %d/%m
     tickInterval 1week
     excludes    weekends
 
@@ -28,5 +28,6 @@ gantt
     Diapo 12 : Conclusion & Ouvertures    :t10, 2026-02-25, 2026-03-10
     Finalisation du rapport               :crit, t11, 2026-03-10, 2026-03-25
     Présentation finale                   :crit, milestone, 2026-03-31, 0d
+
 
 ```
