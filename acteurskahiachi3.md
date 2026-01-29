@@ -1,7 +1,6 @@
 
 ```mermaid
 classDiagram
-    direction TB
 
     %% --- NIVEAU 1 : LA RACINE ---
     class Acteur {
