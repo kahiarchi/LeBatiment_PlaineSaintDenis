@@ -11,7 +11,7 @@ gantt
     section 🔵 ENQUETE ET TERRAIN
     Diffusion du questionnaire       :active, t12, 2025-12-10, 2026-01-31
     Realisation des entretiens       :active, t15, 2025-12-10, 2026-02-15
-    Analyse des questionnaires       :t16, 2026-01-20, 2026-02-20
+    Analyse des questionnaires       :active, t16, 2026-01-20, 2026-02-20
 
     section 🟢 ETAPES REALISEES
     Definition du sujet              :done, t1, 2025-09-15, 2025-09-22
