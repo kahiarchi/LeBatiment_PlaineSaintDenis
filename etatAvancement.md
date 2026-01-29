@@ -1,5 +1,6 @@
 ```mermaid
 gantt
+
     dateFormat  YYYY-MM-DD
     title       Participation citoyenne dans les projets urbains – La Plaine Saint-Denis
     excludes    weekends
