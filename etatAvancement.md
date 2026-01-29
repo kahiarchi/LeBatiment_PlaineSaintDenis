@@ -2,7 +2,7 @@
 gantt
     dateFormat  YYYY-MM-DD
     title Participation Citoyenne – Master 2 Humanités Numériques
-    axisFormat  %d/%m
+    axisFormat  
     tickInterval 1week
     excludes    weekends
 
