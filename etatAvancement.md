@@ -2,7 +2,6 @@
 gantt
     dateFormat  YYYY-MM-DD
     title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
-    axisFormat  %m/%Y
     excludes weekends
 
     section 1.CADRAGE ET VEILLE
