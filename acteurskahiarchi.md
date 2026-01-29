@@ -7,38 +7,45 @@ classDiagram
     CitoyenProfessionnel <|-- CitoyenPrive
 
   class Personne {
-     +int age
-     +String genre
-     +String nom
+      +int age
+      +String genre
+      +String nom
   }
 
   class Citoyen {
-     +String statut 
-     +String implication
-     +participerProjet()
+      +String numIdentite
+      +String communeRattachement
+      +String statut (ex: Electeur, Resident)
+      +boolean estInscritSurListes
+      +voter(String scrutin)
+      +signerPetition(String sujet)
+      +consulterProjetPublic()
   }
 
   class CitoyenActif {
-     +String association
-     +exprimerAvis()
+      +String association
+      +String roleAsso
+      +exprimerAvis()
+      +proposerInitiative()
   }
 
   class CitoyenProfessionnel {
-     +String fonction
-     +String domaine
-     +agirEnFonction()
+      +String fonction
+      +String domaine
+      +String siret_ou_idProf
+      +agirEnFonction()
   }
 
   class CitoyenPublic {
-     +String institution
-     +String service
-     +gererProjet()
+      +String institution
+      +String service
+      +gererProjet()
   }
 
   class CitoyenPrive {
-     +String entreprise
-     +String secteur
-     +realiserProjet()
+      +String entreprise
+      +String secteur
+      +realiserProjet()
   }
   
 ```
