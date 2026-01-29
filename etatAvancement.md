@@ -4,7 +4,7 @@ gantt
     title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     excludes weekends
 
-    section 1. CADRAGE ET VEILLE (TERMINÉ)
+    section 1.CADRAGE ET VEILLE(TERMINÉ)
     Definition sujet et objectifs    :done, t1, 2025-09-15, 2025-09-22
     Formulation problematique        :done, t2, 2025-09-22, 2025-09-29
     Recherche documentaire           :done, t3, 2025-09-22, 2025-10-10
