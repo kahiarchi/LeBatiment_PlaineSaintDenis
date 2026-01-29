@@ -12,8 +12,7 @@ classDiagram
   }
 
   class Citoyen {
-      <<Base>>
-      +String numIdentite
+       +String numIdentite
       +String statutJuridique
       +participerProjet()
       +voter()
