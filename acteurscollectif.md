@@ -3,7 +3,7 @@ classDiagram
     %% Classe de base
     class Acteur {
         +String nom
-        +Date dateNaissance
+        +Age
         +String fonction
         +String contact
         +participerProjet(Projet projet)
