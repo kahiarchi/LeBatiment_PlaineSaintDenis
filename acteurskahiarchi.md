@@ -31,10 +31,21 @@ classDiagram
 
   class CitoyenProfessionnel {
       +String fonction
+      +String domaine
+      +String siret_ou_idProf
       +agirEnFonction()
   }
 
-  CitoyenProfessionnel <|-- CitoyenPublic
-  CitoyenProfessionnel <|-- CitoyenPrive
+  class CitoyenPublic {
+      +String institution
+      +String service
+      +gererProjet()
+  }
+
+  class CitoyenPrive {
+      +String entreprise
+      +String secteur
+      +realiserProjet()
+  }
   
 ```
