@@ -1,6 +1,6 @@
 ```mermaid
 gantt
-    dateFormat  2026-01-29
+    dateFormat  YYYY-MM-DD
     title Participation Citoyenne - La Plaine Saint-Denis
     excludes weekends
 
