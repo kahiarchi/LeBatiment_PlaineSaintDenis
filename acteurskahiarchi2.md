@@ -1,16 +1,20 @@
 ```mermaid
 classDiagram
-    %% Classe de base
+    %% Niveau 1 : La Base
     class Acteur {
         +String nom
-        +Date dateNaissance
+        +Age age
         +String fonction
         +String contact
         +participerProjet(Projet projet)
         +consulterInformation(Projet projet)
     }
 
-    %% Sous-classes principales
+    %% Niveau 2 : Les Grandes Familles d'Acteurs
+    Acteur <|-- InstitutionPublique
+    Acteur <|-- ActeurPrive
+    Acteur <|-- ActeurSocial
+
     class InstitutionPublique {
         +String typeInstitution
         +String niveauAdministratif
@@ -21,7 +25,7 @@ classDiagram
     class ActeurPrive {
         +String domaine
         +String entreprise
-        +collaborerAvecInstitution(InstitutionPublique institution)
+        +collaborerAvecInstitution(InstitutionPublique inst)
         +soumettreProposition(Projet projet)
     }
 
@@ -32,97 +36,7 @@ classDiagram
         +exprimerRevandication()
     }
 
-    %% Institutions publiques
-    class Mairie {
-        +String arrondissement
-        +gererUrbanismeLocal()
-        +delivrerPermisConstruire()
-    }
-
-    class CollectiviteTerritoriale {
-        +String region
-        +planifierDeveloppement()
-        +financerProjet(Projet projet)
-    }
-
-    class ServiceUrbanisme {
-        +analyserProjet(Projet projet)
-        +validerConformite(Projet projet)
-        +emettreAvisTechnique()
-    }
-
-    %% Acteurs privés
-    class Promoteur {
-        +List~Projet~ projets
-        +estimerCoutGlobal()
-        +planifierChantier()
-        +construire()
-    }
-
-    class EntrepriseConstruction {
-        +int effectif
-        +realiserGrandsChantiers()
-        +gererSousTraitants()
-        +controlerQualite()
-    }
-
-    class Architecte {
-        +String numeroOrdre
-        +concevoirPlans(Projet projet)
-        +superviserExecution()
-        +coordonnerEquipes()
-    }
-
-    class SpecialisteBatiment {
-        +String specialite
-        +verifierNormes(Projet projet)
-        +proposerSolutionsTechniques()
-    }
-
-    %% Acteurs sociaux
-    class AssociationRiverains {
-        +String nomAssociation
-        +defendreInteretsLocaux()
-        +organiserReunionsPubliques()
-    }
-
-    class ComiteQuartier {
-        +String quartier
-        +organiserEvenements()
-        +relayerInformation()
-    }
-
-    class Habitant {
-        +String compositionFoyer
-        +String logement
-        +donnerAvis(Projet projet)
-        +participerConsultation()
-    }
-
-    class Usager {
-        +String usagePrincipal
-        +utiliserEquipements()
-        +exprimerBesoins()
-    }
-
-    %% Autres classes
-    class Projet {
-        +String nom
-        +String statut
-        +String localisation
-        +float budget
-        +Date dateDebut
-        +Date dateFin
-        +afficherDetails()
-        +evaluerImpactSocial()
-        +evaluerImpactEnvironnemental()
-    }
-
-    %% Relations hiérarchiques (seulement)
-    Acteur <|-- InstitutionPublique
-    Acteur <|-- ActeurPrive
-    Acteur <|-- ActeurSocial
-
+    %% Niveau 3 : Spécialisations (Public / Privé / Social)
     InstitutionPublique <|-- Mairie
     InstitutionPublique <|-- CollectiviteTerritoriale
     InstitutionPublique <|-- ServiceUrbanisme
@@ -136,4 +50,22 @@ classDiagram
     ActeurSocial <|-- ComiteQuartier
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
+
+    %% Niveau 4 : Le Résultat (En bas)
+    %% Les liens pointillés indiquent que les acteurs "agissent sur" le projet
+    InstitutionPublique ..> Projet : Régule
+    ActeurPrive ..> Projet : Réalise
+    ActeurSocial ..> Projet : Influence/Utilise
+
+    class Projet {
+        +String nom
+        +String statut
+        +String localisation
+        +float budget
+        +Date dateDebut
+        +Date dateFin
+        +afficherDetails()
+        +evaluerImpactSocial()
+        +evaluerImpactEnvironnemental()
+    }
 ```
