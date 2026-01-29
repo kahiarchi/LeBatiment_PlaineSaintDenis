@@ -1,42 +1,25 @@
 ```mermaid
 classDiagram
-    %% Niveau 1 : Racines
+    %% --- BLOC HUMAIN / RACINE ---
     class Acteur {
-        +String identifiant
+        +String identifiant Unique
         +String nom
         +String contact
+        +Date dateNaissance
         +participerConsultation()
     }
 
-    %% Niveau 2 : Grandes Familles (Abstraites)
-    Acteur <|-- InstitutionPublique
-    Acteur <|-- ActeurPrive
-    Acteur <|-- ActeurSocial
-
+    %% --- BLOC INSTITUTIONS PUBLIQUES ---
     class InstitutionPublique {
         +String autoriteTutelle
+        +String budgetAlloue
         +coordonnerProjets()
         +arbitrerConflits()
     }
 
-    class ActeurPrive {
-        +String siret
-        +String assuranceDecennale
-        +soumissionnerAppelOffre()
-    }
-
-    class ActeurSocial {
-        +int nbMembres
-        +representerInteretCollectif()
-    }
-
-    %% Niveau 3 : Spécialisations
-    InstitutionPublique <|-- Mairie
-    InstitutionPublique <|-- CollectiviteTerritoriale
-    InstitutionPublique <|-- ServiceUrbanisme
-
     class Mairie {
         +int codePostal
+        +String eluReferent
         +gererUrbanismeLocal()
         +delivrerPermisConstruire()
     }
@@ -47,53 +30,71 @@ classDiagram
         +emettreAvisTechnique()
     }
 
-    ActeurPrive <|-- Promoteur
-    ActeurPrive <|-- EntrepriseConstruction
-    ActeurPrive <|-- Architecte
+    class CollectiviteTerritoriale {
+        +String region
+        +String departement
+        +planifierDeveloppement()
+        +financerSubvention()
+    }
+
+    %% --- BLOC ACTEURS PRIVÉS ---
+    class ActeurPrive {
+        +String siret
+        +String raisonSociale
+        +String assuranceDecennale
+        +soumissionnerAppelOffre()
+    }
 
     class Promoteur {
         +float capaciteFinanciere
         +estimerCoutGlobal()
         +commercialiserBiens()
+        +piloterChantier()
     }
 
     class Architecte {
         +String numOrdre
+        +String styleSignature
         +concevoirMaquette()
-        +superviserChantier()
+        +superviserExecution()
     }
 
-    ActeurSocial <|-- AssociationRiverains
-    ActeurSocial <|-- Habitant
+    class EntrepriseConstruction {
+        +int effectifOuvrier
+        +List~String~ certificationsQualite
+        +realiserGrosOeuvre()
+        +gererSousTraitants()
+    }
+
+    %% --- BLOC ACTEURS SOCIAUX ---
+    class ActeurSocial {
+        +int nbAdherents
+        +String domaineAction
+        +representerInteretCollectif()
+    }
 
     class AssociationRiverains {
+        +String objetSocial
         +deposerRecours()
         +organiserManifestation()
     }
 
     class Habitant {
         +String typeLogement
+        +String ancienneteQuartier
         +exprimerBesoinsUsages()
+        +donnerAvis()
     }
 
-    %% Niveau 4 : Le Projet (Cible de toutes les actions)
+    %% --- BLOC RÉSULTAT ---
     class Projet {
         +String nom
         +String localisation
-        +String phaseActuelle (Etude, Construction, Livraison)
+        +String phase (Etude, Travaux, Livraison)
         +float budgetTotal
         +Date dateDebut
         +Date dateFin
+        +afficherDetails()
         +calculerROI()
-        +genererRapportImpact()
     }
-
-    %% Relations de dépendance (Acteurs -> Projet)
-    Mairie "1" -- "0..*" Projet : Autorise
-    ServiceUrbanisme "1" -- "0..*" Projet : Valide
-    Promoteur "1" -- "1..*" Projet : Finance & Pilote
-    Architecte "1..*" -- "1" Projet : Dessine
-    EntrepriseConstruction "1..*" -- "1" Projet : Construit
-    AssociationRiverains "0..*" -- "1" Projet : Surveille/Conteste
-    Habitant "0..*" -- "1" Projet : Utilise/Donne Avis
 ```
