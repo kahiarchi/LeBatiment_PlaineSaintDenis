@@ -4,6 +4,10 @@ classDiagram
     Citoyen <|-- CitoyenActif
     Citoyen <|-- CitoyenProfessionnel
     Citoyen <|-- CitoyenIndividuel
+    
+    %% Liens demandés : Spécialisation du professionnel
+    CitoyenProfessionnel <|-- CitoyenPublic
+    CitoyenProfessionnel <|-- CitoyenPrive
 
   class Personne {
       +int age
@@ -12,14 +16,14 @@ classDiagram
   }
 
   class Citoyen {
-       +String numIdentite
+      +String numIdentite
       +String statutJuridique
       +participerProjet()
       +voter()
   }
 
   class CitoyenIndividuel {
-      +String situation (ex: Etudiant, Sans emploi)
+      +String situation
       +String centresInteret
       +consulterInformation()
   }
