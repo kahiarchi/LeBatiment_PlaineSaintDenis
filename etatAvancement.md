@@ -1,3 +1,4 @@
+```mermaid
 gantt
     dateFormat  YYYY-MM-DD
     title       Participation citoyenne dans les projets urbains – La Plaine Saint-Denis
@@ -40,3 +41,4 @@ gantt
     Rédaction analyse et discussion           :         t18, 2026-02-15, 2026-03-10
     Finalisation du rapport                   :         t19, 2026-03-01, 2026-03-20
     Présentation finale                      :milestone, t20, 2026-03-20, 0d
+...
