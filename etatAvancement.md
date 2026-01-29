@@ -4,7 +4,8 @@ gantt
 
     title      Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     excludes    weekends
-   %% Styles
+
+ %% Styles
     classDef doneTask fill:#2ecc71,color:#ffffff,stroke:#1e8449,stroke-width:1px
     classDef activeTask fill:#3498db,color:#ffffff,stroke:#21618c,stroke-width:1px
     classDef futureTask fill:#f39c12,color:#ffffff,stroke:#b9770e,stroke-width:1px
