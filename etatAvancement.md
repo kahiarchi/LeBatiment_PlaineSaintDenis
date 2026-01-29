@@ -5,10 +5,7 @@ gantt
     excludes weekends
 
     %% Styles
-    classDef doneTask fill:#2ecc71,color:#ffffff,stroke:#1e8449,stroke-width:1px
-    classDef activeTask fill:#3498db,color:#ffffff,stroke:#21618c,stroke-width:1px
-    classDef futureTask fill:#f39c12,color:#ffffff,stroke:#b9770e,stroke-width:1px
-    classDef milestoneTask fill:#9b59b6,color:#ffffff,stroke:#5b2c6f,stroke-width:1px
+    
 
     section Cadrage du projet
     Definition du sujet et objectifs        :done, t1, 2025-09-15, 2025-09-22
