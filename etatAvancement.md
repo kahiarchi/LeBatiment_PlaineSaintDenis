@@ -3,7 +3,7 @@ gantt
     
     title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     dateFormat  YYYY-MM-DD
-    section 1. CADRAGE ET VEILLE
+    section 1. CADRAGE 
     Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05
     Formulation problematique        :done, t2, 2025-10-05, 2025-10-15
     Recherche documentaire           :done, t3, 2025-09-26, 2025-10-24
