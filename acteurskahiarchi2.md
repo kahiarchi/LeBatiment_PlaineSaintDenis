@@ -1,100 +1,79 @@
 ```mermaid
 classDiagram
-    %% --- BLOC HUMAIN / RACINE ---
+    direction TB
+
     class Acteur {
-        +String identifiant Unique
         +String nom
-        +String contact
         +Date dateNaissance
-        +participerConsultation()
+        +participerProjet()
     }
 
-    %% --- BLOC INSTITUTIONS PUBLIQUES ---
     class InstitutionPublique {
-        +String autoriteTutelle
-        +String budgetAlloue
+        +String typeInstitution
         +coordonnerProjets()
-        +arbitrerConflits()
+    }
+
+    class ActeurPrive {
+        +String domaine
+        +collaborerAvecInstitution()
+    }
+
+    class ActeurSocial {
+        +String representant
+        +organiserReunions()
     }
 
     class Mairie {
-        +int codePostal
-        +String eluReferent
+        +int CodePostal
         +gererUrbanismeLocal()
         +delivrerPermisConstruire()
     }
 
     class ServiceUrbanisme {
-        +checkConformitePLU()
-        +analyserImpactEnvironnemental()
+        +analyserProjet()
         +emettreAvisTechnique()
     }
 
-    class CollectiviteTerritoriale {
-        +String region
-        +String departement
-        +planifierDeveloppement()
-        +financerSubvention()
-    }
-
-    %% --- BLOC ACTEURS PRIVÉS ---
-    class ActeurPrive {
-        +String siret
-        +String raisonSociale
-        +String assuranceDecennale
-        +soumissionnerAppelOffre()
-    }
-
     class Promoteur {
-        +float capaciteFinanciere
+        +List projets
         +estimerCoutGlobal()
-        +commercialiserBiens()
-        +piloterChantier()
+        +construire()
     }
 
     class Architecte {
-        +String numOrdre
-        +String styleSignature
-        +concevoirMaquette()
-        +superviserExecution()
-    }
-
-    class EntrepriseConstruction {
-        +int effectifOuvrier
-        +List~String~ certificationsQualite
-        +realiserGrosOeuvre()
-        +gererSousTraitants()
-    }
-
-    %% --- BLOC ACTEURS SOCIAUX ---
-    class ActeurSocial {
-        +int nbAdherents
-        +String domaineAction
-        +representerInteretCollectif()
-    }
-
-    class AssociationRiverains {
-        +String objetSocial
-        +deposerRecours()
-        +organiserManifestation()
+        +List numéroOrdre
+        +concevoirPlans()
     }
 
     class Habitant {
-        +String typeLogement
-        +String ancienneteQuartier
-        +exprimerBesoinsUsages()
+        +String compositionFoyer
         +donnerAvis()
     }
 
-    %% --- BLOC RÉSULTAT ---
     class Projet {
         +String nom
+        +String statut
         +String localisation
-        +String phase (Etude, Travaux, Livraison)
-        +float budgetTotal
-        +Date dateDebut
-        +Date dateFin
         +afficherDetails()
-        +calculerROI()
     }
+
+    %% Hiérarchie (Flèches vers le bas)
+    Acteur --|> InstitutionPublique
+    Acteur --|> ActeurPrive
+    Acteur --|> ActeurSocial
+
+    InstitutionPublique --|> Mairie
+    InstitutionPublique --|> ServiceUrbanisme
+
+    ActeurPrive --|> Promoteur
+    ActeurPrive --|> Architecte
+
+    ActeurSocial --|> Habitant
+
+    %% Action vers le Projet (Tout en bas)
+    Mairie ..> Projet : Autorise
+    ServiceUrbanisme ..> Projet : Valide
+    Promoteur ..> Projet : Réalise
+    Architecte ..> Projet : Dessine
+    Habitant ..> Projet : Évalue
 ```
