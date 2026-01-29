@@ -1,7 +1,7 @@
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
-    title Participation Citoyenne - La Plaine Saint-Denis
+    title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     excludes weekends
 
     section 1. CADRAGE ET VEILLE (TERMINÉ)
