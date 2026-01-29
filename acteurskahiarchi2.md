@@ -2,20 +2,10 @@
 classDiagram
     direction TB
 
+    %% --- BLOC ACTEURS ---
     class Acteur {
         +String nom
-        +Date dateNaissance
         +participerProjet()
-    }
-
-    class InstitutionPublique {
-        +String typeInstitution
-        +coordonnerProjets()
-    }
-
-    class ActeurPrive {
-        +String domaine
-        +collaborerAvecInstitution()
     }
 
     class ActeurSocial {
@@ -23,57 +13,57 @@ classDiagram
         +organiserReunions()
     }
 
+    %% --- SPÉCIALISATION HABITANT ---
+    class Habitant {
+        +String adresse
+        +donnerAvis()
+    }
+
+    class HabitantPrive {
+        +String statut (Propriétaire/Locataire)
+        +float chargesMensuelles
+    }
+
+    class HabitantSocial {
+        +String organismeBailleur
+        +int quotientFamilial
+        +solliciterAideLogement()
+    }
+
+    %% --- AUTRES ACTEURS (Compact) ---
     class Mairie {
         +int CodePostal
-        +gererUrbanismeLocal()
         +delivrerPermisConstruire()
     }
 
-    class ServiceUrbanisme {
-        +analyserProjet()
-        +emettreAvisTechnique()
-    }
-
     class Promoteur {
-        +List projets
         +estimerCoutGlobal()
         +construire()
     }
 
-    class Architecte {
-        +List numéroOrdre
-        +concevoirPlans()
-    }
-
-    class Habitant {
-        +String compositionFoyer
-        +donnerAvis()
-    }
-
+    %% --- RÉSULTAT ---
     class Projet {
         +String nom
-        +String statut
         +String localisation
-        +afficherDetails()
     }
 
-    %% Hiérarchie (Flèches vers le bas)
-    Acteur --|> InstitutionPublique
-    Acteur --|> ActeurPrive
-    Acteur --|> ActeurSocial
+    %% --- RELATIONS ---
+    Acteur <|-- ActeurSocial
+    ActeurSocial <|-- Habitant
+    
+    %% Distinction demandée
+    Habitant <|-- HabitantPrive
+    Habitant <|-- HabitantSocial
 
-    InstitutionPublique --|> Mairie
-    InstitutionPublique --|> ServiceUrbanisme
+    %% Autres branches
+    Acteur <|-- InstitutionPublique
+    InstitutionPublique <|-- Mairie
+    Acteur <|-- ActeurPrive
+    ActeurPrive <|-- Promoteur
 
-    ActeurPrive --|> Promoteur
-    ActeurPrive --|> Architecte
-
-    ActeurSocial --|> Habitant
-
-    %% Action vers le Projet (Tout en bas)
-    Mairie ..> Projet : Autorise
-    ServiceUrbanisme ..> Projet : Valide
-    Promoteur ..> Projet : Réalise
-    Architecte ..> Projet : Dessine
-    Habitant ..> Projet : Évalue
+    %% Flux vers le Projet
+    Mairie ..> Projet 
+    Promoteur ..> Projet 
+    HabitantPrive ..> Projet
+    HabitantSocial ..> Projet
 ```
