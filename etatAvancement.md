@@ -1,11 +1,7 @@
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
+    dateFormat  2026-01-29
     title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
-    excludes weekends
-
-    %% Styles
-    
 
     section Cadrage du projet
     Definition du sujet et objectifs        :done, t1, 2025-09-15, 2025-09-22
