@@ -1,7 +1,8 @@
 ```mermaid
 gantt
-    dateFormat  2026-01-29
-    title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
+    dateFormat  YYYY-MM-DD
+    title Participation Citoyenne - La Plaine Saint-Denis
+    excludes weekends
 
     section 1. CADRAGE ET VEILLE (TERMINÉ)
     Definition sujet et objectifs    :done, t1, 2025-09-15, 2025-09-22
