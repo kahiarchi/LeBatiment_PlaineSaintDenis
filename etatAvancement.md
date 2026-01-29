@@ -1,7 +1,7 @@
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
-    title       Adding GANTT diagram functionality to mermaid
+    dateFormat  2026-01-29
+    title       Participation citoyenne dans les projets urbains au sein du quartier de la plaine Saint Denis
     excludes    weekends
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
