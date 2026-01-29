@@ -1,12 +1,15 @@
 ```mermaid
 gantt
-    title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     dateFormat  YYYY-MM-DD
-    
-    Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05
+    title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
+    excludes    weekends
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+    section 1. CADRAGE ET VEILLE
+    Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05 ,3d
     Formulation problematique        :done, t2, 2025-10-05, 2025-10-15
     Recherche documentaire           :done, t3, 2025-09-26, 2025-10-24
-    Identification des acteurs       :done, t6, 2025-10-10, 2025-10-30
+    Identification des acteurs       :done, t4, 2025-10-10, 2025-10-30
 
     
     Elaboration du questionnaire     :done, t7, 2025-10-20, 2025-11-05
