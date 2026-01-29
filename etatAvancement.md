@@ -2,7 +2,13 @@
 gantt
     dateFormat  YYYY-MM-DD
     title Participation citoyenne - La Plaine Saint-Denis
-    excludes weekends
+
+
+    %% Définition des styles avec des couleurs vives
+    classDef doneTask fill:#22ff00,color:#000,stroke:#000,stroke-width:2px
+    classDef activeTask fill:#00d9ff,color:#000,stroke:#000,stroke-width:2px
+    classDef futureTask fill:#ff9100,color:#000,stroke:#000,stroke-width:2px
+    classDef milestoneTask fill:#ff00ea,color:#fff,stroke:#000,stroke-width:2px
 
     section Cadrage du projet
     Definition sujet et objectifs    :done, 2025-09-15, 2025-09-22
