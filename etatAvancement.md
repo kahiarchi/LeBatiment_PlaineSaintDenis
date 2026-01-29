@@ -5,10 +5,9 @@ gantt
     excludes weekends
 
     section 1.CADRAGE ET VEILLE(TERMINÉ)
-    Definition sujet et objectifs    :done, t1, 2025-09-15, 2025-09-22
-    Formulation problematique        :done, t2, 2025-09-22, 2025-09-29
-    Recherche documentaire           :done, t3, 2025-09-22, 2025-10-10
-    Analyse historique et urbaine    :done, t5, 2025-10-01, 2025-10-15
+    Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-09-27
+    Formulation problematique        :done, t2, 2025-09-29, 2025-09-29
+    Recherche documentaire           :done, t3, 2025-09-26, 2025-10-15
     Identification des acteurs       :done, t6, 2025-10-10, 2025-10-20
 
     section 2. CONCEPTION ENQUÊTE (TERMINÉ)
