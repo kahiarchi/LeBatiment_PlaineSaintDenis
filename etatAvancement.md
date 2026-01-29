@@ -1,8 +1,7 @@
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
     title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
-    excludes    weekends
+    dateFormat  YYYY-MM-DD
     
     Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05
     Formulation problematique        :done, t2, 2025-10-05, 2025-10-15
