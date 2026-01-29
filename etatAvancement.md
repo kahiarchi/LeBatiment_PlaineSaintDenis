@@ -4,7 +4,6 @@ gantt
     title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     axisFormat  %d/%m
     tickInterval 1day
-    displayMode compact
     excludes    weekends
     
     Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05
