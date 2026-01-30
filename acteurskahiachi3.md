@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     direction TB
 
@@ -153,3 +154,4 @@ classDiagram
     Habitant --> Projet
     Usager --> Projet
     Resident --> Projet
+```
