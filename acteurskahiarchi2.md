@@ -2,68 +2,177 @@
 classDiagram
     direction TB
 
-    %% --- BLOC ACTEURS ---
+    %% Classe de base
     class Acteur {
         +String nom
+        +int age
+        +Date dateNaissance
+        +String fonction
+        +String contact
         +participerProjet()
+    }
+
+    %% Sous-classes principales
+    class InstitutionPublique {
+        +String typeInstitution
+        +String niveauAdministratif
+        +regulerProjet()
+    }
+
+    class ActeurPrive {
+        +String domaine
+        +String entreprise
     }
 
     class ActeurSocial {
         +String representant
-        +organiserReunions()
+        +String zoneIntervention
     }
 
-    %% --- SPÉCIALISATION HABITANT ---
-    class Habitant {
-        +String adresse
-        +donnerAvis()
-    }
-
-    class HabitantPrive {
-        +String statut (Propriétaire/Locataire)
-        +float chargesMensuelles
-    }
-
-    class HabitantSocial {
-        +String organismeBailleur
-        +int quotientFamilial
-        +solliciterAideLogement()
-    }
-
-    %% --- AUTRES ACTEURS (Compact) ---
+    %% Institutions publiques
     class Mairie {
-        +int CodePostal
+        +String arrondissement
+        +gererUrbanismeLocal()
         +delivrerPermisConstruire()
     }
 
+    class CollectiviteTerritoriale {
+        +String region
+        +planifierDeveloppement()
+        +financerProjet()
+    }
+
+    class ServiceUrbanisme {
+        +analyserProjet()
+        +validerConformite()
+        +emettreAvisTechnique()
+    }
+
+    class ServiceBatiment {
+        +suiviControl()
+        +payementConformite()
+    }
+
+    %% Acteurs privés
     class Promoteur {
+        +List~Projet~ projets
         +estimerCoutGlobal()
+        +planifierChantier()
         +construire()
     }
 
-    %% --- RÉSULTAT ---
-    class Projet {
-        +String nom
-        +String localisation
+    class GroupeConstruction {
+        +realiserGrandsChantiers()
     }
 
-    %% --- RELATIONS ---
-    Acteur <|-- ActeurSocial
-    ActeurSocial <|-- Habitant
-    
-    %% Distinction demandée
-    Habitant <|-- HabitantPrive
-    Habitant <|-- HabitantSocial
+    class GroupeImmobilier {
+        +developperProjetsImmobiliers()
+    }
 
-    %% Autres branches
+    class EntrepriseConstruction {
+        +int effectif
+        +gererSousTraitants()
+        +controlerQualite()
+    }
+
+    class Architecte {
+        +String numeroOrdre
+        +concevoirPlans()
+        +superviserExecution()
+        +coordonnerEquipes()
+    }
+
+    class SpecialisteBatiment {
+        +String specialite
+        +verifierNormes()
+        +proposerSolutionsTechniques()
+    }
+
+    %% Acteurs sociaux
+    class AssociationRiverains {
+        +String nomAssociation
+        +defendreInteretsLocaux()
+        +organiserReunionsPubliques()
+    }
+
+    class ComiteQuartier {
+        +String quartier
+        +organiserEvenements()
+        +relayerInformation()
+    }
+
+    class Habitant {
+        +String compositionFoyer
+        +String logement
+        +donnerAvis()
+        +participerConsultation()
+    }
+
+    class Usager {
+        +String usagePrincipal
+        +utiliserEquipements()
+        +exprimerBesoins()
+    }
+
+    class Resident {
+        +String compositionFoyer
+        +String logement
+        +donnerAvis()
+    }
+
+    %% Projet (objet central)
+    class Projet {
+        +String nom
+        +String statut
+        +String localisation
+        +float budget
+        +Date dateDebut
+        +Date dateFin
+        +afficherDetails()
+        +evaluerImpactSocial()
+        +evaluerImpactEnvironnemental()
+    }
+
+    %% Héritage
     Acteur <|-- InstitutionPublique
-    InstitutionPublique <|-- Mairie
     Acteur <|-- ActeurPrive
-    ActeurPrive <|-- Promoteur
+    Acteur <|-- ActeurSocial
+    Acteur <|-- Resident
 
-    %% Flux vers le Projet
-    Mairie ..> Projet 
-    Promoteur ..> Projet 
-    HabitantPrive ..> Projet
-    HabitantSocial ..> Projet
+    InstitutionPublique <|-- Mairie
+    InstitutionPublique <|-- CollectiviteTerritoriale
+    InstitutionPublique <|-- ServiceUrbanisme
+    InstitutionPublique <|-- ServiceBatiment
+
+    ActeurPrive <|-- Promoteur
+    ActeurPrive <|-- EntrepriseConstruction
+    ActeurPrive <|-- Architecte
+    ActeurPrive <|-- SpecialisteBatiment
+    Promoteur <|-- GroupeConstruction
+    Promoteur <|-- GroupeImmobilier
+
+    ActeurSocial <|-- AssociationRiverains
+    ActeurSocial <|-- ComiteQuartier
+    ActeurSocial <|-- Habitant
+    ActeurSocial <|-- Usager
+
+    %% Relations vers Projet
+    Mairie --> Projet
+    CollectiviteTerritoriale --> Projet
+    ServiceUrbanisme --> Projet
+    ServiceBatiment --> Projet
+
+    Promoteur --> Projet
+    GroupeConstruction --> Projet
+    GroupeImmobilier --> Projet
+    EntrepriseConstruction --> Projet
+    Architecte --> Projet
+    SpecialisteBatiment --> Projet
+
+    AssociationRiverains --> Projet
+    ComiteQuartier --> Projet
+    Habitant --> Projet
+    Usager --> Projet
+    Resident --> Projet
+
 ```
