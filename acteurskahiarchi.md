@@ -1,55 +1,150 @@
+
 ```mermaid
 classDiagram
-    Personne <|-- Citoyen
-    Citoyen <|-- CitoyenActif
-    Citoyen <|-- CitoyenProfessionnel
-    Citoyen <|-- CitoyenIndividuel
-    
-    %% Liens demandés : Spécialisation du professionnel
-    CitoyenProfessionnel <|-- CitoyenPublic
-    CitoyenProfessionnel <|-- CitoyenPrive
+    direction TB
 
-  class Personne {
-      +int age
-      +String genre
-      +String nom
-  }
+    %% Classe de base
+    class Acteur {
+        +String nom
+        +int age
+        +String fonction
+        +String contact
+    }
 
-  class Citoyen {
-      +String numIdentite
-      +String statutJuridique
-      +participerProjet()
-      +voter()
-  }
+    %% Sous-classes principales
+    class InstitutionPublique {
+        +String typeInstitution
+        +String niveauAdministratif
+    }
 
-  class CitoyenIndividuel {
-      +String situation
-      +String centresInteret
-      +consulterInformation()
-  }
+    class ActeurPrive {
+        +String domaine
+        +String entreprise
+    }
 
-  class CitoyenActif {
-      +String association
-      +exprimerAvis()
-  }
+    class ActeurSocial {
+        +String representant
+        +String zoneIntervention
+    }
 
-  class CitoyenProfessionnel {
-      +String fonction
-      +String domaine
-      +String siret_ou_idProf
-      +agirEnFonction()
-  }
+    %% Institutions publiques
+    class Mairie {
+        +String arrondissement
+        +gererUrbanismeLocal()
+        +delivrerPermisConstruire()
+    }
 
-  class CitoyenPublic {
-      +String institution
-      +String service
-      +gererProjet()
-  }
+    class CollectiviteTerritoriale {
+        +String region
+        +planifierDeveloppement()
+        +financerProjet()
+    }
 
-  class CitoyenPrive {
-      +String entreprise
-      +String secteur
-      +realiserProjet()
-  }
-  
+    class ServiceUrbanisme {
+        +analyserProjet()
+        +validerConformite()
+        +emettreAvisTechnique()
+    }
+
+    %% Acteurs privés
+    class Promoteur {
+        +List~Projet~ projets
+        +estimerCoutGlobal()
+        +planifierChantier()
+        +construire()
+    }
+
+    class EntrepriseConstruction {
+        +int effectif
+        +realiserGrandsChantiers()
+        +gererSousTraitants()
+        +controlerQualite()
+    }
+
+    class Architecte {
+        +String numeroOrdre
+        +concevoirPlans()
+        +superviserExecution()
+        +coordonnerEquipes()
+    }
+
+    class SpecialisteBatiment {
+        +String specialite
+        +verifierNormes()
+        +proposerSolutionsTechniques()
+    }
+
+    %% Acteurs sociaux
+    class AssociationRiverains {
+        +String nomAssociation
+        +defendreInteretsLocaux()
+        +organiserReunionsPubliques()
+    }
+
+    class ComiteQuartier {
+        +String quartier
+        +organiserEvenements()
+        +relayerInformation()
+    }
+
+    class Habitant {
+        +String compositionFoyer
+        +String logement
+        +donnerAvis()
+        +participerConsultation()
+    }
+
+    class Usager {
+        +String usagePrincipal
+        +utiliserEquipements()
+        +exprimerBesoins()
+    }
+
+    %% Projet (objet central)
+    class Projet {
+        +String nom
+        +String statut
+        +String localisation
+        +float budget
+        +Date dateDebut
+        +Date dateFin
+        +afficherDetails()
+        +evaluerImpactSocial()
+        +evaluerImpactEnvironnemental()
+    }
+
+    %% Héritage
+    Acteur <|-- InstitutionPublique
+    Acteur <|-- ActeurPrive
+    Acteur <|-- ActeurSocial
+
+    InstitutionPublique <|-- Mairie
+    InstitutionPublique <|-- CollectiviteTerritoriale
+    InstitutionPublique <|-- ServiceUrbanisme
+
+    ActeurPrive <|-- Promoteur
+    ActeurPrive <|-- EntrepriseConstruction
+    ActeurPrive <|-- Architecte
+    ActeurPrive <|-- SpecialisteBatiment
+
+    ActeurSocial <|-- AssociationRiverains
+    ActeurSocial <|-- ComiteQuartier
+    ActeurSocial <|-- Habitant
+    ActeurSocial <|-- Usager
+
+    %% Relations vers Projet (sans texte)
+    Mairie --> Projet
+    CollectiviteTerritoriale --> Projet
+    ServiceUrbanisme --> Projet
+
+    Promoteur --> Projet
+    EntrepriseConstruction --> Projet
+    Architecte --> Projet
+    SpecialisteBatiment --> Projet
+
+    AssociationRiverains --> Projet
+    ComiteQuartier --> Projet
+    Habitant --> Projet
+    Usager --> Projet
+
 ```
