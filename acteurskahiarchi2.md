@@ -6,17 +6,14 @@ classDiagram
     class Acteur {
         +String nom
         +int age
-        +Date dateNaissance
         +String fonction
         +String contact
-        +participerProjet()
     }
 
     %% Sous-classes principales
     class InstitutionPublique {
         +String typeInstitution
         +String niveauAdministratif
-        +regulerProjet()
     }
 
     class ActeurPrive {
@@ -48,11 +45,6 @@ classDiagram
         +emettreAvisTechnique()
     }
 
-    class ServiceBatiment {
-        +suiviControl()
-        +payementConformite()
-    }
-
     %% Acteurs privés
     class Promoteur {
         +List~Projet~ projets
@@ -61,16 +53,9 @@ classDiagram
         +construire()
     }
 
-    class GroupeConstruction {
-        +realiserGrandsChantiers()
-    }
-
-    class GroupeImmobilier {
-        +developperProjetsImmobiliers()
-    }
-
     class EntrepriseConstruction {
         +int effectif
+        +realiserGrandsChantiers()
         +gererSousTraitants()
         +controlerQualite()
     }
@@ -118,6 +103,7 @@ classDiagram
         +String compositionFoyer
         +String logement
         +donnerAvis()
+        +participerConsultation()
     }
 
     %% Projet (objet central)
@@ -137,34 +123,28 @@ classDiagram
     Acteur <|-- InstitutionPublique
     Acteur <|-- ActeurPrive
     Acteur <|-- ActeurSocial
-    Acteur <|-- Resident
 
     InstitutionPublique <|-- Mairie
     InstitutionPublique <|-- CollectiviteTerritoriale
     InstitutionPublique <|-- ServiceUrbanisme
-    InstitutionPublique <|-- ServiceBatiment
 
     ActeurPrive <|-- Promoteur
     ActeurPrive <|-- EntrepriseConstruction
     ActeurPrive <|-- Architecte
     ActeurPrive <|-- SpecialisteBatiment
-    Promoteur <|-- GroupeConstruction
-    Promoteur <|-- GroupeImmobilier
 
     ActeurSocial <|-- AssociationRiverains
     ActeurSocial <|-- ComiteQuartier
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
+    ActeurSocial <|-- Resident
 
     %% Relations vers Projet
     Mairie --> Projet
     CollectiviteTerritoriale --> Projet
     ServiceUrbanisme --> Projet
-    ServiceBatiment --> Projet
 
     Promoteur --> Projet
-    GroupeConstruction --> Projet
-    GroupeImmobilier --> Projet
     EntrepriseConstruction --> Projet
     Architecte --> Projet
     SpecialisteBatiment --> Projet
