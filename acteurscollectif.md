@@ -1,9 +1,11 @@
 ```mermaid
 classDiagram
+    direction TB
+
     %% Classe de base
     class Acteur {
         +String nom
-        +Age
+        +int age
         +String fonction
         +String contact
         +participerProjet(Projet projet)
@@ -29,7 +31,7 @@ classDiagram
         +String representant
         +String zoneIntervention
         +organiserReunions()
-        +exprimerRevandication()
+        +exprimerRevendication()
     }
 
     %% Institutions publiques
@@ -105,7 +107,7 @@ classDiagram
         +exprimerBesoins()
     }
 
-    %% Autres classes
+    %% Projet (entité centrale, en bas)
     class Projet {
         +String nom
         +String statut
@@ -118,7 +120,7 @@ classDiagram
         +evaluerImpactEnvironnemental()
     }
 
-    %% Relations hiérarchiques (seulement)
+    %% Héritage
     Acteur <|-- InstitutionPublique
     Acteur <|-- ActeurPrive
     Acteur <|-- ActeurSocial
@@ -136,5 +138,9 @@ classDiagram
     ActeurSocial <|-- ComiteQuartier
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
+
+    %% Relations vers Projet (participation globale)
+    Acteur --> Projet : participe à
+
 ```
 
