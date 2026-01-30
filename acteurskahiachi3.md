@@ -1,5 +1,3 @@
-
-```mermaid
 classDiagram
     direction TB
 
@@ -100,6 +98,13 @@ classDiagram
         +exprimerBesoins()
     }
 
+    class Resident {
+        +String compositionFoyer
+        +String logement
+        +donnerAvis()
+        +participerConsultation()
+    }
+
     %% Projet (objet central)
     class Projet {
         +String nom
@@ -131,8 +136,9 @@ classDiagram
     ActeurSocial <|-- ComiteQuartier
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
+    ActeurSocial <|-- Resident
 
-    %% Relations vers Projet (sans texte)
+    %% Relations vers Projet
     Mairie --> Projet
     CollectiviteTerritoriale --> Projet
     ServiceUrbanisme --> Projet
@@ -146,5 +152,4 @@ classDiagram
     ComiteQuartier --> Projet
     Habitant --> Projet
     Usager --> Projet
-
-```
+    Resident --> Projet
