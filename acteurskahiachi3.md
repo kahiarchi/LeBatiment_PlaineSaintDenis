@@ -132,20 +132,19 @@ classDiagram
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
 
-    %% Relations explicites vers Projet
-    Mairie --> Projet : pilote / autorise
-    CollectiviteTerritoriale --> Projet : finance / planifie
-    ServiceUrbanisme --> Projet : analyse / valide
+    %% Relations vers Projet (sans texte)
+    Mairie --> Projet
+    CollectiviteTerritoriale --> Projet
+    ServiceUrbanisme --> Projet
 
-    Promoteur --> Projet : conçoit / planifie / construit
-    EntrepriseConstruction --> Projet : réalise / contrôle
-    Architecte --> Projet : conçoit / supervise
-    SpecialisteBatiment --> Projet : vérifie normes / propose solutions
+    Promoteur --> Projet
+    EntrepriseConstruction --> Projet
+    Architecte --> Projet
+    SpecialisteBatiment --> Projet
 
-    AssociationRiverains --> Projet : participe / exprime besoins
-    ComiteQuartier --> Projet : relaye info / organise réunions
-    Habitant --> Projet : donne avis / participe consultation
-    Usager --> Projet : utilise / exprime besoins
-
+    AssociationRiverains --> Projet
+    ComiteQuartier --> Projet
+    Habitant --> Projet
+    Usager --> Projet
 
 ```
