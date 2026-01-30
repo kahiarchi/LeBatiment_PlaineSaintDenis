@@ -3,100 +3,85 @@
 classDiagram
     direction TB
 
+    %% Classe de base
     class Acteur {
         +String nom
         +int age
+        +String fonction
         +String contact
-        +participerProjet()
+        +participerProjet(Projet projet)
+        +consulterInformation(Projet projet)
     }
 
+    %% Sous-classes principales
     class InstitutionPublique {
         +String typeInstitution
+        +String niveauAdministratif
         +coordonnerProjets()
+        +attribuerAutorisation(Projet projet)
     }
 
     class ActeurPrive {
+        +String domaine
         +String entreprise
-        +soumettreProposition()
+        +collaborerAvecInstitution(InstitutionPublique institution)
+        +soumettreProposition(Projet projet)
     }
 
     class ActeurSocial {
         +String representant
+        +String zoneIntervention
         +organiserReunions()
+        +exprimerRevendication()
     }
 
+    %% Institutions publiques
     class Mairie {
         +String arrondissement
+        +gererUrbanismeLocal()
         +delivrerPermisConstruire()
     }
 
-    class ServiceUrbanisme {
-        +analyserProjet()
-        +validerConformite()
+    class CollectiviteTerritoriale {
+        +String region
+        +planifierDeveloppement()
+        +financerProjet(Projet projet)
     }
 
+    class ServiceUrbanisme {
+        +analyserProjet(Projet projet)
+        +validerConformite(Projet projet)
+        +emettreAvisTechnique()
+    }
+
+    %% Acteurs privés
     class Promoteur {
+        +List~Projet~ projets
         +estimerCoutGlobal()
+        +planifierChantier()
         +construire()
+    }
+
+    class EntrepriseConstruction {
+        +int effectif
+        +realiserGrandsChantiers()
+        +gererSousTraitants()
+        +controlerQualite()
     }
 
     class Architecte {
         +String numeroOrdre
-        +concevoirPlans()
+        +concevoirPlans(Projet projet)
+        +superviserExecution()
+        +coordonnerEquipes()
     }
 
-    class Habitant {
-        +String adresse
-        +donnerAvis()
+    class SpecialisteBatiment {
+        +String specialite
+        +verifierNormes(Projet projet)
+        +proposerSolutionsTechniques()
     }
 
-    class HabitantPrive {
-        +String statut
-    }
+    %% Act
 
-    class HabitantSocial {
-        +String organismeBailleur
-    }
-
-    class Usager {
-        +String lieuUtilisation
-        +exprimerBesoins()
-    }
-
-    class Passager {
-        +String modeTransport
-        +evaluerAccessibilite()
-    }
-
-    class Projet {
-        +String nom
-        +String statut
-        +float budget
-    }
-
-    %% Hiérarchie
-    Acteur <|-- InstitutionPublique
-    Acteur <|-- ActeurPrive
-    Acteur <|-- ActeurSocial
-
-    InstitutionPublique <|-- Mairie
-    InstitutionPublique <|-- ServiceUrbanisme
-    ActeurPrive <|-- Promoteur
-    ActeurPrive <|-- Architecte
-
-    ActeurSocial <|-- Habitant
-    ActeurSocial <|-- Usager
-    ActeurSocial <|-- Passager
-    Habitant <|-- HabitantPrive
-    Habitant <|-- HabitantSocial
-
-    %% Flux vers le bas
-    Mairie ..> Projet
-    ServiceUrbanisme ..> Projet
-    Promoteur ..> Projet
-    Architecte ..> Projet
-    HabitantPrive ..> Projet
-    HabitantSocial ..> Projet
-    Usager ..> Projet
-    Passager ..> Projet
 ```
