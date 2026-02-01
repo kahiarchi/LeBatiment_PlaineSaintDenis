@@ -7,8 +7,8 @@ gantt
     Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05
     Formulation problematique        :done, t2, 2025-10-05, 2025-10-15
     Recherche documentaire Sindup & Ressources WikiData  :done, t3, 2025-09-26, 2025-10-24
-    Création de fichiers CSV         :done, t4, 2025-10-09, 2025-10-10
-    Identification des acteurs       :done, t5, 2025-10-10, 2025-10-30
+    Création de fichiers CSV,Importation dans GitHub         :done, t4, 2025-10-09, 2025-10-10
+    Identification des acteurs , création de diagramme de classe      :done, t5, 2025-10-10, 2025-10-30
 
     section 2. CONCEPTION ENQUÊTE
     Elaboration du questionnaire     :done, t6, 2025-10-20, 2025-11-05
