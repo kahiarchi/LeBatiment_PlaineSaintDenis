@@ -6,7 +6,7 @@ gantt
     section 1. CADRAGE 
     Definition sujet et objectifs    :done, t1, 2025-09-25, 2025-10-05
     Formulation problematique        :done, t2, 2025-10-05, 2025-10-15
-    Recherche documentaire & Ressources WikiData  :done, t3, 2025-09-26, 2025-10-24
+    Recherche documentaire Sindup & Ressources WikiData  :done, t3, 2025-09-26, 2025-10-24
     Création de fichiers CSV         :done, t4, 2025-10-09, 2025-10-10
     Identification des acteurs       :done, t5, 2025-10-10, 2025-10-30
 
