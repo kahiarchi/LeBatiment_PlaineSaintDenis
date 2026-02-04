@@ -1,8 +1,10 @@
 ```mermaid
 gantt
-    title Participation citoyenne dans les projets urbains - La Plaine Saint-Denis
+    title Participation citoyenne - La Plaine Saint-Denis
     dateFormat  YYYY-MM-DD
-    axisFormat  %m/%y
+    %% Le format ci-dessous affiche le jour et le mois (ex: 25/09)
+    axisFormat  %d/%m
+    tickInterval 1day
 
     section 1. CADRAGE
     Definition sujet et objectifs           :done, t1, 2025-09-25, 2025-10-05
