@@ -215,7 +215,6 @@ classDiagram
         +exprimerBesoins()
     }
 
-
     %% Projet (objet central)
     class Projet {
         +String nom
