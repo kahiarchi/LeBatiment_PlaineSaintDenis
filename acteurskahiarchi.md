@@ -100,20 +100,7 @@ classDiagram
         +exprimerBesoins()
     }
 
-    %% Projet (objet central)
-    class Projet {
-        +String nom
-        +String statut
-        +String localisation
-        +float budget
-        +Date dateDebut
-        +Date dateFin
-        +afficherDetails()
-        +evaluerImpactSocial()
-        +evaluerImpactEnvironnemental()
-    }
-
-    %% Héritage
+      %% Héritage
     Acteur <|-- InstitutionPublique
     Acteur <|-- ActeurPrive
     Acteur <|-- ActeurSocial
@@ -132,19 +119,5 @@ classDiagram
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
 
-    %% Relations vers Projet (sans texte)
-    Mairie --> Projet
-    CollectiviteTerritoriale --> Projet
-    ServiceUrbanisme --> Projet
-
-    Promoteur --> Projet
-    EntrepriseConstruction --> Projet
-    Architecte --> Projet
-    SpecialisteBatiment --> Projet
-
-    AssociationRiverains --> Projet
-    ComiteQuartier --> Projet
-    Habitant --> Projet
-    Usager --> Projet
-
+   
 ```
