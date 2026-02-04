@@ -4,7 +4,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %m/%y
     
-    section 1. CADRAGE (Effectué)
+    section 1. CADRAGE 
     Definition sujet et objectifs           :done, t1, 2025-09-25, 2025-10-05
     Problematique de formulation            :done, t2, 2025-10-05, 2025-10-15
     Recherche documentaire Sindup           :done, t3, 2025-09-26, 2025-10-24
