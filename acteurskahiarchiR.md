@@ -1,6 +1,6 @@
 ```mermaid
 gantt
-    title Participation citoyenne - La Plaine Saint-Denis
+    title Participation citoyenne dans les projets urbains au sein du quartier de La Plaine Saint-Denis
     dateFormat  YYYY-MM-DD
     axisFormat  %m/%y
     
