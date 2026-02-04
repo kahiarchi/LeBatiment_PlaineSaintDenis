@@ -1,3 +1,4 @@
+
 ```mermaid
 classDiagram
     direction TB
@@ -47,7 +48,7 @@ classDiagram
 
     %% Acteurs privés
     class Promoteur {
-        +List~Projet~ projets
+        +List projets
         +estimerCoutGlobal()
         +planifierChantier()
         +construire()
@@ -99,27 +100,7 @@ classDiagram
         +exprimerBesoins()
     }
 
-    class Resident {
-        +String compositionFoyer
-        +String logement
-        +donnerAvis()
-        +participerConsultation()
-    }
-
-    %% Projet (objet central)
-    class Projet {
-        +String nom
-        +String statut
-        +String localisation
-        +float budget
-        +Date dateDebut
-        +Date dateFin
-        +afficherDetails()
-        +evaluerImpactSocial()
-        +evaluerImpactEnvironnemental()
-    }
-
-    %% Héritage
+      %% Héritage
     Acteur <|-- InstitutionPublique
     Acteur <|-- ActeurPrive
     Acteur <|-- ActeurSocial
@@ -137,22 +118,6 @@ classDiagram
     ActeurSocial <|-- ComiteQuartier
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
-    ActeurSocial <|-- Resident
 
-    %% Relations vers Projet
-    Mairie --> Projet
-    CollectiviteTerritoriale --> Projet
-    ServiceUrbanisme --> Projet
-
-    Promoteur --> Projet
-    EntrepriseConstruction --> Projet
-    Architecte --> Projet
-    SpecialisteBatiment --> Projet
-
-    AssociationRiverains --> Projet
-    ComiteQuartier --> Projet
-    Habitant --> Projet
-    Usager --> Projet
-    Resident --> Projet
-
+   
 ```
