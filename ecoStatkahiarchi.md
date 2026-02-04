@@ -113,50 +113,130 @@
 | 10  | \N         | 3          | 10      | Aménagement espaces        |
 ## 4_ STRUCTURE VISUELLE 
 Le diagramme suivant montre les relations entre les différents acteurs du projet .
+
 ```mermaid
 classDiagram
-    Personne <|-- Citoyen
-    Citoyen <|-- CitoyenActif
-    Citoyen <|-- CitoyenProfessionnel
-    CitoyenProfessionnel <|-- CitoyenPublic
-    CitoyenProfessionnel <|-- CitoyenPrive
+    direction TB
 
-  class Personne {
-     +int age
-     +String genre
-     +String nom
-  }
+    %% Classe de base
+    class Acteur {
+        +String nom
+        +int age
+        +String fonction
+        +String contact
+    }
 
-  class Citoyen {
-     +String statut 
-     +String implication
-     +participerProjet()
-  }
+    %% Sous-classes principales
+    class InstitutionPublique {
+        +String typeInstitution
+        +String niveauAdministratif
+    }
 
-  class CitoyenActif {
-     +String association
-     +exprimerAvis()
-  }
+    class ActeurPrive {
+        +String domaine
+        +String entreprise
+    }
 
-  class CitoyenProfessionnel {
-     +String fonction
-     +String domaine
-     +agirEnFonction()
-  }
+    class ActeurSocial {
+        +String representant
+        +String zoneIntervention
+    }
 
-  class CitoyenPublic {
-     +String institution
-     +String service
-     +gererProjet()
-  }
+    %% Institutions publiques
+    class Mairie {
+        +String arrondissement
+        +gererUrbanismeLocal()
+        +delivrerPermisConstruire()
+    }
 
-  class CitoyenPrive {
-     +String entreprise
-     +String secteur
-     +realiserProjet()
-  }
-  
+    class CollectiviteTerritoriale {
+        +String region
+        +planifierDeveloppement()
+        +financerProjet()
+    }
+
+    class ServiceUrbanisme {
+        +analyserProjet()
+        +validerConformite()
+        +emettreAvisTechnique()
+    }
+
+    %% Acteurs privés
+    class Promoteur {
+        +List projets
+        +estimerCoutGlobal()
+        +planifierChantier()
+        +construire()
+    }
+
+    class EntrepriseConstruction {
+        +int effectif
+        +realiserGrandsChantiers()
+        +gererSousTraitants()
+        +controlerQualite()
+    }
+
+    class Architecte {
+        +String numeroOrdre
+        +concevoirPlans()
+        +superviserExecution()
+        +coordonnerEquipes()
+    }
+
+    class SpecialisteBatiment {
+        +String specialite
+        +verifierNormes()
+        +proposerSolutionsTechniques()
+    }
+
+    %% Acteurs sociaux
+    class AssociationRiverains {
+        +String nomAssociation
+        +defendreInteretsLocaux()
+        +organiserReunionsPubliques()
+    }
+
+    class ComiteQuartier {
+        +String quartier
+        +organiserEvenements()
+        +relayerInformation()
+    }
+
+    class Habitant {
+        +String compositionFoyer
+        +String logement
+        +donnerAvis()
+        +participerConsultation()
+    }
+
+    class Usager {
+        +String usagePrincipal
+        +utiliserEquipements()
+        +exprimerBesoins()
+    }
+
+      %% Héritage
+    Acteur <|-- InstitutionPublique
+    Acteur <|-- ActeurPrive
+    Acteur <|-- ActeurSocial
+
+    InstitutionPublique <|-- Mairie
+    InstitutionPublique <|-- CollectiviteTerritoriale
+    InstitutionPublique <|-- ServiceUrbanisme
+
+    ActeurPrive <|-- Promoteur
+    ActeurPrive <|-- EntrepriseConstruction
+    ActeurPrive <|-- Architecte
+    ActeurPrive <|-- SpecialisteBatiment
+
+    ActeurSocial <|-- AssociationRiverains
+    ActeurSocial <|-- ComiteQuartier
+    ActeurSocial <|-- Habitant
+    ActeurSocial <|-- Usager
+
+   
 ```
+
 
 ## 5_ REPRESENTATIONS ET ANALYSE DES DONNEES 
 
