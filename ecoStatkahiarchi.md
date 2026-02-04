@@ -163,7 +163,7 @@ classDiagram
 
     %% Acteurs privés
     class Promoteur {
-        +List projets
+        +List~Projet~ projets
         +estimerCoutGlobal()
         +planifierChantier()
         +construire()
@@ -215,7 +215,21 @@ classDiagram
         +exprimerBesoins()
     }
 
-      %% Héritage
+
+    %% Projet (objet central)
+    class Projet {
+        +String nom
+        +String statut
+        +String localisation
+        +float budget
+        +Date dateDebut
+        +Date dateFin
+        +afficherDetails()
+        +evaluerImpactSocial()
+        +evaluerImpactEnvironnemental()
+    }
+
+    %% Héritage
     Acteur <|-- InstitutionPublique
     Acteur <|-- ActeurPrive
     Acteur <|-- ActeurSocial
@@ -234,9 +248,21 @@ classDiagram
     ActeurSocial <|-- Habitant
     ActeurSocial <|-- Usager
 
-   
-```
+    %% Relations vers Projet
+    Mairie --> Projet
+    CollectiviteTerritoriale --> Projet
+    ServiceUrbanisme --> Projet
 
+    Promoteur --> Projet
+    EntrepriseConstruction --> Projet
+    Architecte --> Projet
+    SpecialisteBatiment --> Projet
+
+    AssociationRiverains --> Projet
+    ComiteQuartier --> Projet
+    Habitant --> Projet
+    Usager --> Projet
+   ```
 
 ## 5_ REPRESENTATIONS ET ANALYSE DES DONNEES 
 
