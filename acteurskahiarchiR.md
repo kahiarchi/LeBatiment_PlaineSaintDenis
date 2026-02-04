@@ -20,7 +20,7 @@ gantt
 
     section 3. TERRAIN ET DIFFUSION
     Diffusion du questionnaire                       :active, t12, 2025-12-27, 2026-02-20
-    Outils d'Analyse Jamovi                          :done, t13, 2026-01-08
+    Outils d'Analyse Jamovi                          :done, t13, 2026-01-08, 0d
     Realisation des entretiens                       :active, t14, 2026-01-10, 2026-02-20
 
     section 4. ANALYSE ET RÉDACTION
@@ -30,5 +30,5 @@ gantt
     Finalisation du rapport          :t18, 2026-03-01, 2026-03-20
 
     section 5. LIVRABLE FINAL
-    Presentation finale              :crit, milestone, 2026-03-05
+    Presentation finale              :crit, milestone, 2026-03-05, 0d
 ```
