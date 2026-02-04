@@ -1,10 +1,7 @@
 ```mermaid
-gantt
-    title Participation citoyenne dans les projets urbains - La Plaine Saint-Denis
-   dateFormat  YYYY-MM-DD
-    axisFormat  %d/%m
-    tickInterval 1day
-
+dateFormat  YYYY-MM-DD
+    axisFormat  %m/%y
+    
     section 1. CADRAGE (Effectué)
     Definition sujet et objectifs           :done, t1, 2025-09-25, 2025-10-05
     Problematique de formulation            :done, t2, 2025-10-05, 2025-10-15
@@ -26,7 +23,7 @@ gantt
     Realisation des entretiens              :active, t14, 2026-01-10, 2026-02-20
 
     section 4. ANALYSE (A réaliser)
-    Analyse des questionnaires              :t15, 2026-02-20, 2026-02-28
+    Analyse des questionnaires Jamovi       :t15, 2026-02-20, 2026-02-28
     Analyse qualitative                     :t16, 2026-02-20, 2026-03-01
     Redaction et discussion                 :t17, 2026-02-20, 2026-03-03
     Finalisation du rapport                 :t18, 2026-03-01, 2026-03-20
