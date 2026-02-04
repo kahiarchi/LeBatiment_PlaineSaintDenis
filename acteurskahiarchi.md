@@ -48,7 +48,7 @@ classDiagram
 
     %% Acteurs privés
     class Promoteur {
-        +List~Projet~ projets
+        +List projets
         +estimerCoutGlobal()
         +planifierChantier()
         +construire()
