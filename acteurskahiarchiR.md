@@ -21,7 +21,7 @@ gantt
     section 3. TERRAIN ET DIFFUSION
 
     Diffusion du questionnaire       :active, t12, 2025-12-27, 2026-02-20
-    Outils d'Analyse du questionnaire"Jamovi" ":Done, t13, 2025-01-08 
+    Outils d'Analyse du questionnaire"Jamovi" ":Done, t13, 2025-01-08 , 2026-02-28
     Realisation des entretiens       :active, t14, 2026-01-10, 2026-02-20
 
     section 4. ANALYSE ET RÉDACTION
