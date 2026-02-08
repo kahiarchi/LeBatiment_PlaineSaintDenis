@@ -59,3 +59,36 @@
 « en rendant le code des agents en question « open source ». » ([“Ethique et agents autonomes”, p. 44](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=44&annotation=UUBNKXNP)) La transparence est un facteur clé de confiance et de certification.
 
 « Aucune éthique ne peut s’élaborer indépendamment d’une discussion ouverte et contradictoire. » ([“Ethique et agents autonomes”, p. 47](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=47&annotation=ZCPU6VS4)) L'éthique est par nature intersubjective et nécessite la confrontation.
+
+
+### Commentaire du document « Ethique et agents autonomes »
+
+Le document « Ethique et agents autonomes » explore de manière approfondie les enjeux éthiques liés aux systèmes autonomes, qu’il s’agisse d’agents logiciels ou physiques. Il souligne que la simple capacité technique ne garantit pas un comportement éthique et insiste sur la nécessité d’une réflexion humaine continue.
+
+## 1. Définition et portée des agents autonomes
+
+Le texte commence par définir précisément ce qu’est un agent autonome, et identifie les domaines critiques où leur utilisation soulève des questions éthiques, notamment le militaire, la justice, le médical et les transports. Cette contextualisation est essentielle pour comprendre les implications pratiques et morales des technologies abordées.
+
+## 2. Éthique vs morale
+
+Le document distingue clairement morale et éthique : la morale étant prescriptive et partagée, l’éthique étant réflexive et questionnant la manière de vivre et d’agir. Cette distinction permet de comprendre pourquoi un agent autonome ne peut pas être automatiquement « éthique » simplement parce qu’il suit des règles programmées.
+
+## 3. Limites du progrès technologique
+
+L’un des points centraux est que le progrès technologique n’implique pas automatiquement un progrès social. Les auteurs insistent sur le fait que la technologie doit rester subordonnée au bien-être humain et que l’appropriation sociale et contextuelle est essentielle.
+
+## 4. Transparence et responsabilité
+
+Plusieurs passages mettent en avant l’importance de la transparence, de la justification des décisions et de la traçabilité des actions des agents autonomes. La possibilité pour un agent d’expliquer ses choix est cruciale pour la confiance des utilisateurs et pour l’évaluation éthique.
+
+## 5. Pluralité et complexité des situations
+
+Le texte montre que l’éthique ne peut être réduite à des règles figées. Chaque situation nécessite une appréciation contextualisée, et un agent peut devoir adapter son comportement selon l’organisation ou le contexte culturel. La pluralité des valeurs et des principes est donc une dimension clé.
+
+## 6. Illustrations concrètes
+
+Des exemples concrets, comme l’accident de la voiture Uber, mettent en lumière la tension entre sécurité, confort et décisions algorithmiques, montrant que les dilemmes éthiques ne peuvent pas être résolus uniquement par la technique.
+
+## 7. Conclusion
+
+L’éthique des agents autonomes est intersubjective, contextuelle et réflexive. Le document insiste sur la nécessité d’une discussion ouverte et continue pour guider le développement de technologies responsables. L’approche proposée met en avant un raisonnement éthique explicite, préférant la réflexion humaine à l’application mécanique de règles.
