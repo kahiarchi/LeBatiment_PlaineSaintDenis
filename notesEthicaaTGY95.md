@@ -11,7 +11,7 @@
 
 « L’éthique nous invite à intégrer le fait que ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=47VXSHFT)) Fondement de la responsabilité éthique du concepteur face à la technique
 
-« la morale est prescriptive (elle nous aiguille sur ce qui est jugé bon ou mal de faire en fonction de valeurs qui sont censées être partagées par le plus grand nombre), autant l’éthique est réflexive » ([“Ethique et agents autonomes”, p. 6](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=6&annotation=CWMGRW6J)) Distinction majeure entre l'obligation (morale) et la réflexion sur le sens (éthique
+« la morale est prescriptive (elle nous aiguille sur ce qui est jugé bon ou mal de faire en fonction de valeurs qui sont censées être partagées par le plus grand nombre), autant l’éthique est réflexive » ([“Ethique et agents autonomes”, p. 6](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=6&annotation=CWMGRW6J)) Distinction majeure entre l'obligation (morale) et la réflexion sur le sens (éthique)
 
 « ne répond pas à la question « Que dois-je faire ? », mais à la question « Comment vivre ? » » ([“Ethique et agents autonomes”, p. 6](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=6&annotation=ITF78VAS)) Référence à André Comte-Sponville pour définir l'éthique comme particulière
 
