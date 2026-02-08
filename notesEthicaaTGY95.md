@@ -61,7 +61,8 @@
 « Aucune éthique ne peut s’élaborer indépendamment d’une discussion ouverte et contradictoire. » ([“Ethique et agents autonomes”, p. 47](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=47&annotation=ZCPU6VS4)) L'éthique est par nature intersubjective et nécessite la confrontation.
 
 
-### Commentaire du document « Ethique et agents autonomes »
+
+# Commentaire du document « Ethique et agents autonomes »
 
 Le document « Ethique et agents autonomes » explore de manière approfondie les enjeux éthiques liés aux systèmes autonomes, qu’il s’agisse d’agents logiciels ou physiques. Il souligne que la simple capacité technique ne garantit pas un comportement éthique et insiste sur la nécessité d’une réflexion humaine continue.
 
