@@ -44,7 +44,7 @@
 
 « un agent a un comportement éthique si son comportement est conforme aux règles morales relevant des différents contextes » ([“Ethique et agents autonomes”, p. 29](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=29&annotation=KA8XBG9P)) Définition de la conformité éthique via la vérification formelle et les "Obligations de Preuve"
 
-« danger de la quantification » ([“Ethique et agents autonomes”, p. 33](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=33&annotation=ZLR4BLTU)) La quantification non fondée altère la signification du jugement éthique.
+« danger de la quantification » ([“Ethique et agents autonomes”, p. 33](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=33&annotation=ZLR4BLTU)) met en garde contre la tentation de transformer l'éthique en un simple calcul mathématique pour faciliter la programmation.
 
 « Un agent appartenant à plusieurs organisations pourra ainsi également développer différents comportements éthiques selon l’organisation à laquelle il se réfère » ([“Ethique et agents autonomes”, p. 34](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=34&annotation=UHU6HILD)) Concept de pluralité éthique liée à la dimension organisationnelle des systèmes multi-agents.
 
