@@ -7,7 +7,7 @@
 
 « il n’y a pas de lien de nécessité entre « progrès technologique » et « progrès social ». » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=ZSR9NSX7)) Le progrès réel ne se situe pas dans l'outil lui-même, mais dans la manière dont les humains s'en saisissent.
 
-« ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=7ELB8S8E)) le progrès technique ne doit pas être une fin en soi mais rester subordonné au bien-être de la société
+« ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=7ELB8S8E)) le progrès technique ne doit pas être une fin en soi mais rester subordonné au bien-être de la société,
 
 « L’éthique nous invite à intégrer le fait que ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=47VXSHFT)) Fondement de la responsabilité éthique du concepteur face à la technique
 
@@ -34,7 +34,7 @@
 
 « le philosophe anglais David Hume, une approche courante est de définir la causalité en termes de dépendance contre-factuelle » ([“Ethique et agents autonomes”, p. 21](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=21&annotation=DUY5YX9D)) Concept clé pour l'attribution de la responsabilité légale et morale
 
-« L’éthique par raisonnement a été privilégiée par rapport aux approches d'éthique par conception » ([“Ethique et agents autonomes”, p. 22](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=22&annotation=WB2IUYSS)) **Référence importante** : Choix technique d'utiliser la représentation explicite des connaissances plutôt que des règles figées.
+« L’éthique par raisonnement a été privilégiée par rapport aux approches d'éthique par conception » ([“Ethique et agents autonomes”, p. 22](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=22&annotation=WB2IUYSS)) **Référence importante** :  C'est une approche statique qui ne permet pas à l'agent de s'adapter à l'imprévu, Si la situation réelle s'éloigne légèrement du scénario prévu par le programmeur, la machine peut prendre une décision absurde ou dangereuse car elle ne "comprend" pas le but de la règle, elle l'applique juste mécaniquement
 
 « Un modèle du juste qui détermine l’action éthiquement la plus adaptée selon des circonstances données » ([“Ethique et agents autonomes”, p. 23](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=23&annotation=PRYTEJC9)) Comment garantir que ce modèle s'adapte à la diversité culturelle des utilisateurs?
 
