@@ -1,8 +1,6 @@
 # Annotations  
 (08/02/2026 20:43:40)
 
-« Les agents autonomes artificiels1 sont des machines logicielles ou physiques capables de calculer des décisions, » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=YAGJ6A8S)) Définition de référence de l'agent autonome
-
 
 « il n’y a pas de lien de nécessité entre « progrès technologique » et « progrès social ». » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=ZSR9NSX7)) Le progrès réel ne se situe pas dans l'outil lui-même, mais dans la manière dont les humains s'en saisissent.
 
