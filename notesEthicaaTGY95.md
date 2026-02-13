@@ -5,9 +5,9 @@
 
 « Leur introduction dans des domaines tels que le domaine militaire (voir page 10), la justice (voir page 25), le milieu médical (voir page 36) ou encore les transports autonomes (voir page 42), soulève de nombreuses questions éthiques. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=PGB6NUCF)) Référence aux domaines d'application critiques identifiés
 
-« il n’y a pas de lien de nécessité entre « progrès technologique » et « progrès social ». » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=ZSR9NSX7)) Le progrès dépend des conditions d'appropriation hétérogènes
+« il n’y a pas de lien de nécessité entre « progrès technologique » et « progrès social ». » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=ZSR9NSX7)) Le progrès réel ne se situe pas dans l'outil lui-même, mais dans la manière dont les humains s'en saisissent.
 
-« ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=7ELB8S8E)) e progrès technique ne doit pas être une fin en soi mais rester subordonné au bien-être de la sociét
+« ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=7ELB8S8E)) le progrès technique ne doit pas être une fin en soi mais rester subordonné au bien-être de la société
 
 « L’éthique nous invite à intégrer le fait que ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=47VXSHFT)) Fondement de la responsabilité éthique du concepteur face à la technique
 
