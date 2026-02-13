@@ -38,7 +38,7 @@
 
 « Un modèle du juste qui détermine l’action éthiquement la plus adaptée selon des circonstances données » ([“Ethique et agents autonomes”, p. 23](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=23&annotation=PRYTEJC9)) Comment garantir que ce modèle s'adapte à la diversité culturelle des utilisateurs?
 
-« Cependant, cela serait éthiquement fort discutable, puisqu’en assimilant le crime virtuel au crime actuel, on rendrait coupables ceux qui aurait un simple profil » ([“Ethique et agents autonomes”, p. 25](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=25&annotation=3NRFACDU)) Risque majeur de discrimination et de suppression du droit à l'amendement par le profilage
+« Cependant, cela serait éthiquement fort discutable, puisqu’en assimilant le crime virtuel au crime actuel, on rendrait coupables ceux qui aurait un simple profil » ([“Ethique et agents autonomes”, p. 25](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=25&annotation=3NRFACDU)) ie : c'est-à-dire l'utilisation d'algorithmes pour anticiper des comportements criminels, L'anticipation algorithmique s'appuie sur l'apprentissage machine (machine learning) et l'analyse de grandes masses de données
 
 « il est préférable de considérer des agents autonomes capables de fournir des justifications ou des explications » ([“Ethique et agents autonomes”, p. 27](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=27&annotation=MSVP3PJP)) La transparence est vitale pour qu'un utilisateur non-expert puisse faire confiance à la décision.
 
