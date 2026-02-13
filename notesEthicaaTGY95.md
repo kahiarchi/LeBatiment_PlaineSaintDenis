@@ -85,4 +85,4 @@ Des exemples concrets, comme l’accident de la voiture Uber, mettent en lumièr
 
 ## 6. Conclusion
 
-L’éthique des agents autonomes est intersubjective, contextuelle et réflexive. Le document insiste sur la nécessité d’une discussion ouverte et continue pour guider le développement de technologies responsables. L’approche proposée met en avant un raisonnement éthique explicite, préférant la réflexion humaine à l’application mécanique de règles.
+ L'éthique ne se décide pas seul dans son coin, mais dans la relation avec les autres, elle est contextuelle et réflexive. Le document insiste sur la nécessité d’une discussion ouverte et continue pour guider le développement de technologies responsables. L’approche proposée met en avant un raisonnement éthique explicite, préférant la réflexion humaine à l’application mécanique de règles.
