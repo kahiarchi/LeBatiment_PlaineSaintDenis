@@ -78,14 +78,11 @@ L’un des points centraux est que le progrès technologique n’implique pas au
 
 Plusieurs passages mettent en avant l’importance de la transparence, de la justification des décisions et de la traçabilité des actions des agents autonomes. La possibilité pour un agent d’expliquer ses choix est cruciale pour la confiance des utilisateurs et pour l’évaluation éthique.
 
-## 5. Pluralité et complexité des situations
 
-Le texte montre que l’éthique ne peut être réduite à des règles figées. Chaque situation nécessite une appréciation contextualisée, et un agent peut devoir adapter son comportement selon l’organisation ou le contexte culturel. La pluralité des valeurs et des principes est donc une dimension clé.
-
-## 6. Illustrations concrètes
+## 5. Illustrations concrètes
 
 Des exemples concrets, comme l’accident de la voiture Uber, mettent en lumière la tension entre sécurité, confort et décisions algorithmiques, montrant que les dilemmes éthiques ne peuvent pas être résolus uniquement par la technique.
 
-## 7. Conclusion
+## 6. Conclusion
 
 L’éthique des agents autonomes est intersubjective, contextuelle et réflexive. Le document insiste sur la nécessité d’une discussion ouverte et continue pour guider le développement de technologies responsables. L’approche proposée met en avant un raisonnement éthique explicite, préférant la réflexion humaine à l’application mécanique de règles.
