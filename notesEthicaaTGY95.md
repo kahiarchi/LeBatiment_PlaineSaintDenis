@@ -46,7 +46,7 @@
 
 « danger de la quantification » ([“Ethique et agents autonomes”, p. 33](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=33&annotation=ZLR4BLTU)) met en garde contre la tentation de transformer l'éthique en un simple calcul mathématique pour faciliter la programmation.
 
-« Un agent appartenant à plusieurs organisations pourra ainsi également développer différents comportements éthiques selon l’organisation à laquelle il se réfère » ([“Ethique et agents autonomes”, p. 34](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=34&annotation=UHU6HILD)) Concept de pluralité éthique liée à la dimension organisationnelle des systèmes multi-agents.
+« Un agent appartenant à plusieurs organisations pourra ainsi également développer différents comportements éthiques selon l’organisation à laquelle il se réfère » ([“Ethique et agents autonomes”, p. 34](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=34&annotation=UHU6HILD)) une réalité complexe du monde numérique ie:  un agent autonome (une IA ou un logiciel) n'évolue pas seul, mais au sein de structures appelées Systèmes Multi-Agents (SMA).
 
 « il y a certainement un danger à vouloir déléguer l’entendement à un algorithme, et de fonder des décisions uniquement sur le calcul » ([“Ethique et agents autonomes”, p. 35](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=35&annotation=GEBWBU8R)) Mise en garde contre le risque de substituer le calcul mathématique à l'entendement humain faillible mais nécessaire
 
