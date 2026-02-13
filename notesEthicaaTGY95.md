@@ -3,17 +3,15 @@
 
 « Les agents autonomes artificiels1 sont des machines logicielles ou physiques capables de calculer des décisions, » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=YAGJ6A8S)) Définition de référence de l'agent autonome
 
-« Leur introduction dans des domaines tels que le domaine militaire (voir page 10), la justice (voir page 25), le milieu médical (voir page 36) ou encore les transports autonomes (voir page 42), soulève de nombreuses questions éthiques. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=PGB6NUCF)) Référence aux domaines d'application critiques identifiés
 
 « il n’y a pas de lien de nécessité entre « progrès technologique » et « progrès social ». » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=ZSR9NSX7)) Le progrès réel ne se situe pas dans l'outil lui-même, mais dans la manière dont les humains s'en saisissent.
 
 « ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=7ELB8S8E)) le progrès technique ne doit pas être une fin en soi mais rester subordonné au bien-être de la société,
 
-« L’éthique nous invite à intégrer le fait que ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=47VXSHFT)) Fondement de la responsabilité éthique du concepteur face à la technique
+« L’éthique nous invite à intégrer le fait que ce qui est technologiquement possible n’est pas toujours humainement ou socialement souhaitable. » ([“Ethique et agents autonomes”, p. 5](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=5&annotation=47VXSHFT)) le concepteur d'une technologie n'est pas qu'un simple technicien, mais qu'il porte une responsabilité morale sur ce qu'il met au monde
 
 « la morale est prescriptive (elle nous aiguille sur ce qui est jugé bon ou mal de faire en fonction de valeurs qui sont censées être partagées par le plus grand nombre), autant l’éthique est réflexive » ([“Ethique et agents autonomes”, p. 6](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=6&annotation=CWMGRW6J)) La morale est décrite comme prescriptive, elle fonctionne comme un code de conduite ou un ensemble de règles, l'éthique est décrite comme réflexive elle ne donne pas d'ordres, mais elle fait réfléchir ;
 
-« ne répond pas à la question « Que dois-je faire ? », mais à la question « Comment vivre ? » » ([“Ethique et agents autonomes”, p. 6](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=6&annotation=ITF78VAS)) Référence à André Comte-Sponville pour définir l'éthique comme particulière
 
 « Quels sont les éléments permettant d’apprécier une situation lorsqu’il est question d’éthique et d’agents autonomes ? » ([“Ethique et agents autonomes”, p. 6](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=6&annotation=SCMI97JZ)) Questionnement sur la sélection des critères d'appréciation d'une situation
 
@@ -36,7 +34,6 @@
 
 « L’éthique par raisonnement a été privilégiée par rapport aux approches d'éthique par conception » ([“Ethique et agents autonomes”, p. 22](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=22&annotation=WB2IUYSS)) **Référence importante** :  C'est une approche statique qui ne permet pas à l'agent de s'adapter à l'imprévu, Si la situation réelle s'éloigne légèrement du scénario prévu par le programmeur, la machine peut prendre une décision absurde ou dangereuse car elle ne "comprend" pas le but de la règle, elle l'applique juste mécaniquement
 
-« Un modèle du juste qui détermine l’action éthiquement la plus adaptée selon des circonstances données » ([“Ethique et agents autonomes”, p. 23](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=23&annotation=PRYTEJC9)) Comment garantir que ce modèle s'adapte à la diversité culturelle des utilisateurs?
 
 « Cependant, cela serait éthiquement fort discutable, puisqu’en assimilant le crime virtuel au crime actuel, on rendrait coupables ceux qui aurait un simple profil » ([“Ethique et agents autonomes”, p. 25](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=25&annotation=3NRFACDU)) ie : c'est-à-dire l'utilisation d'algorithmes pour anticiper des comportements criminels, L'anticipation algorithmique s'appuie sur l'apprentissage machine (machine learning) et l'analyse de grandes masses de données
 
@@ -46,9 +43,9 @@
 
 « danger de la quantification » ([“Ethique et agents autonomes”, p. 33](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=33&annotation=ZLR4BLTU)) met en garde contre la tentation de transformer l'éthique en un simple calcul mathématique pour faciliter la programmation.
 
-« Un agent appartenant à plusieurs organisations pourra ainsi également développer différents comportements éthiques selon l’organisation à laquelle il se réfère » ([“Ethique et agents autonomes”, p. 34](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=34&annotation=UHU6HILD)) une réalité complexe du monde numérique ie:  un agent autonome (une IA ou un logiciel) n'évolue pas seul, mais au sein de structures appelées Systèmes Multi-Agents (SMA).
+« Un agent appartenant à plusieurs organisations pourra ainsi également développer différents comportements éthiques selon l’organisation à laquelle il se réfère » ([“Ethique et agents autonomes”, p. 34](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=34&annotation=UHU6HILD)) une réalité complexe du monde numérique ie:  un agent autonome (une IA ou un logiciel) n'évolue pas seul, mais au sein de structures appelées Systèmes Multi-Agents .
 
-« il y a certainement un danger à vouloir déléguer l’entendement à un algorithme, et de fonder des décisions uniquement sur le calcul » ([“Ethique et agents autonomes”, p. 35](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=35&annotation=GEBWBU8R)) Mise en garde contre le risque de substituer le calcul mathématique à l'entendement humain faillible mais nécessaire
+« il y a certainement un danger à vouloir déléguer l’entendement à un algorithme, et de fonder des décisions uniquement sur le calcul » ([“Ethique et agents autonomes”, p. 35](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=35&annotation=GEBWBU8R)) Elle souligne qu'une décision calculée n'est pas forcément une décision juste
 
 « l’agent élimine toutes les décisions qui ne satisfont pas le premier principe » ([“Ethique et agents autonomes”, p. 41](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=41&annotation=DQ4NWX2B)) Comment définir une hiérarchie de principes éthiques qui soit légitime et non arbitraire dans l'urgence ?
 
@@ -56,9 +53,8 @@
 
 « Que ferions nous en effet d'un système ayant un comportement dont l'éthique ne résiste pas au passage à l'échelle ? » ([“Ethique et agents autonomes”, p. 44](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=44&annotation=K679W56X)) Questionnement sur la robustesse de l'éthique face à la complexité technique.
 
-« en rendant le code des agents en question « open source ». » ([“Ethique et agents autonomes”, p. 44](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=44&annotation=UUBNKXNP)) La transparence est un facteur clé de confiance et de certification.
 
-« Aucune éthique ne peut s’élaborer indépendamment d’une discussion ouverte et contradictoire. » ([“Ethique et agents autonomes”, p. 47](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=47&annotation=ZCPU6VS4)) L'éthique est par nature intersubjective et nécessite la confrontation.
+« Aucune éthique ne peut s’élaborer indépendamment d’une discussion ouverte et contradictoire. » ([“Ethique et agents autonomes”, p. 47](zotero://select/library/items/K9IZ24KI)) ([pdf](zotero://open-pdf/library/items/7EN6862J?page=47&annotation=ZCPU6VS4)) l'éthique ne peut pas être définie par une personne seule, et encore moins par un algorithme isolé. Elle repose sur l'échange et le débat entre les individus
 
 
 
