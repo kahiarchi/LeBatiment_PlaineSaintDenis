@@ -1,11 +1,11 @@
 # Annotations  
 (19/02/2026 22:13:47)
 
-« L’espace médiatique et politique semble en effet saturé de références à ce thème majeur » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=N46XUXWW)) Tout le monde parle d'IA, mais personne ne sait vraiment ce que "l'éthique" veut dire concrètement
+« L’espace médiatique et politique semble en effet saturé de références à ce thème majeur » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=N46XUXWW)) Tout le monde parle d'IA, mais personne ne sait vraiment ce que "l'éthique" veut dire concrètement, ie : arrêter de considérer l'éthique comme une simple liste de valeurs morales pour la transformer en obligations de comportement 
 
-« qu’est-ce que l’éthique de l’IA, finalement ? » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=GLQU5L67)) C'est la question centrale. Le livre cherche à définir l'éthique au-delà des mots à la mode comme "IA de confiance
+« qu’est-ce que l’éthique de l’IA, finalement ? » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=GLQU5L67)) C'est la question centrale. Le livre cherche à définir l'éthique au-delà des mots à la mode comme "IA de confiance qui esyt un mot souvent utilisé en UE pour dire IA fiable et sécurisée 
 
-« trois piliers d’une éthique de l’IA simplifiée » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=5M3FASXZ)) Les trois mots-clés qui servent de base à toutes les propositions du document : Intégrité, Dignité et Durabilité
+« trois piliers d’une éthique de l’IA simplifiée » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=5M3FASXZ)) Les trois mots-clés qui servent de base à toutes les propositions du document : Intégrité ( transparanve des algo, responsabilité en cas d'eereur), Dignité ( pas d'atteinte aux libertés) , et Durabilité ( impact environnemental et frugalité)
 
 « L’éthique est un questionnement quant à son propre comportement » ([Maurel, p. 5](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=5&annotation=X7GGZFSB)) l'éthique n'est pas une règle extérieure, c'est l'action de se demander tout le temps "est-ce que ce que je fais est bien ?"
 
