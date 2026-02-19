@@ -1,5 +1,5 @@
 # Annotations  
-(19/02/2026 22:13:47)
+(19/02/2026 20:30:13)
 
 « L’espace médiatique et politique semble en effet saturé de références à ce thème majeur » ([Maurel, p. 4](zotero://select/library/items/FCYN7QHK)) ([pdf](zotero://open-pdf/library/items/3H9TNZ7E?page=4&annotation=N46XUXWW)) Tout le monde parle d'IA, mais personne ne sait vraiment ce que "l'éthique" veut dire concrètement, ie : arrêter de considérer l'éthique comme une simple liste de valeurs morales pour la transformer en obligations de comportement 
 
