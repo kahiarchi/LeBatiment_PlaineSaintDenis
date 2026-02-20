@@ -116,4 +116,5 @@ L’objectif est d’automatiser les tâches répétitives et chronophages (tri,
 Le retard enregistré par l’administration dans le domaine de l’IA peut devenir un atout : celui de bâtir une approche plus responsable.
 Je fais le choix d’un déploiement progressif. Expérimenter, évaluer, ajuster. Avancer méthodiquement plutôt que de céder à la précipitation.
 Je reste également attentive à la « facture invisible » de l’IA : le coût énergétique, financier et organisationnel. La transparence doit également faire partie des éléments à prendre en compte dans la genèse du projet.
+
 Enfin, la sécurité doit être une vigilance permanente. Le risque zéro n’existe pas. C’est pourquoi je défends l’idée d’une supervision humaine en continue et d’une responsabilité partagée.
