@@ -91,7 +91,7 @@
 
 Ma compréhension d’une IA publique : l’humain, l’éthique avant la technique
 
-À mes yeux, l’intelligence artificielle dans nos administrations ne doit pas être une technologie de surcouche adoptée sous l’effet de mode, il s’agit d’un véritable changement de paradigme nécessitant à la fois des convictions affirmées et une réflexion structurée. Voici les principes qui sous-tendent ma vision.
+Pour moi, l'intelligence artificielle dans nos administrations ne doit pas être une simple couche technologique qu'on ajoute par effet de mode, il s’agit d’un véritable changement de paradigme nécessitant à la fois des convictions affirmées et une réflexion structurée. Voici les principes qui sous-tendent ma vision.
 
 1. L’éthique pour socle, pas pour slogan
 L’éthique ne saurait être un slogan rassurant ou la formule institutionnelle “IA de confiance”. Elle est le substrat même de tout projet.
@@ -106,13 +106,13 @@ L’administration a habituellement cultivé le flou. Je plaide pour la transpar
 Avec un algorithme impliqué dans une décision publique, le citoyen doit en connaître au moins le rôle et la logique générale. L’usager doit savoir s’il discute avec une IA. La loyauté informationnelle est une exigence démocratique.
 Et au-delà du code, je dirai que ce qui m’intéresse, c’est l’impact social : cet outil permet-il une amélioration réelle de l’accès aux droits ? Ou bien va-t-il créer encore davantage de fractures numériques et sociales ?
 
-3. L’agent public demeure le pilote
+3. L’agent public demeure le pilote:
 L’IA n’est pas un remplacement, mais un soutien.
 Je défends une élévation de la formation des agents publics pour qu’ils aient une connaissance critique des outils. Pour leur autonomie et éviter la dépendance au dispositif.
 Mais, un usage totalement libre, dans un espace non approprié pourrait fragiliser la règle d’égalité des citoyens. Je prône donc un équilibre : liberté d’usage, mais dans un cadre clair et partagé.
 L’objectif est d’automatiser les tâches répétitives et chronophages (tri, classement, traitement standardisé) afin de redonner du temps aux agents pour ce qui fait la valeur du service public : l’écoute, l’accompagnement, le conseil.
 
-4. La prudence stratégique et la responsabilité
+4. La prudence stratégique et la responsabilité :
 Le retard enregistré par l’administration dans le domaine de l’IA peut devenir un atout : celui de bâtir une approche plus responsable.
 Je fais le choix d’un déploiement progressif. Expérimenter, évaluer, ajuster. Avancer méthodiquement plutôt que de céder à la précipitation.
 Je reste également attentive à la « facture invisible » de l’IA : le coût énergétique, financier et organisationnel. La transparence doit également faire partie des éléments à prendre en compte dans la genèse du projet.
