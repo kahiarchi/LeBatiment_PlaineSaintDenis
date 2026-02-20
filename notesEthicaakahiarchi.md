@@ -107,7 +107,7 @@
 
 « c’est bel et bien la multitude (et la complexité) de ces interactions qu’une éthique des agents autonomes devra être en mesure d’embrasser. » ([“Ethique et agents autonomes”, p. 48](zotero://select/library/items/9G7JK7XT)) ([pdf](zotero://open-pdf/library/items/KBUP3CND?page=48&annotation=7C4WFAMQ)) une éthique artificielle puisse un jour réellement "embrasser" toute la complexité humaine.
 
-#Synthèse
+# Synthèse
 
 Le document interroge de manière rigoureuse la possibilité d’intégrer une dimension éthique aux agents autonomes artificiels, définis comme des systèmes capables de « calculer des décisions ». Dès l’abord, une question fondamentale se pose : peut-on véritablement parler de décision lorsqu’il s’agit d’un système dépourvu d’intention, d’émotion et de volonté propre ?
 
