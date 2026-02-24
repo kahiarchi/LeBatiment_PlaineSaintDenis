@@ -54,3 +54,23 @@
 « les archives communautaires non seulement remettent en cause les conceptions traditionnelles de l’archivistique, mais ouvrent également des voies possibles vers une praxis archivistique plus juste, éthique et socialement engagée. » ([Tognoli, 2025, p. 6](zotero://select/library/items/KYBSWMKE)) ([pdf](zotero://open-pdf/library/items/YR3Q6EI9?page=7&annotation=W5QIQM6P)) L'autrice ne se contente pas de critiquer les modèles traditionnels ; elle propose d'adopter l'éthique du soin dans les archives communautaires pour garantir l'inclusion de toutes les communautés, particulièrement les plus marginalisées. L'objectif est de promouvoir la justice sociale et de sauvegarder les mémoires culturelles pour les générations futures, le tout au sein d'un « espace chaud » riche d'échanges, d'empathie, de responsabilité et de confiance.
 
 « cette transformation exige une réévaluation critique de la praxis archivistique, une réforme de la formation professionnelle, un engagement accru avec les communautés et l’élaboration de politiques et de directives qui mettent l’accent sur le soin et l’inclusion, en veillant à ce que les processus archivistiques prennent en considération les besoins et les perspectives de toutes les communautés concernées. » ([Tognoli, 2025, p. 7](zotero://select/library/items/KYBSWMKE)) ([pdf](zotero://open-pdf/library/items/YR3Q6EI9?page=8&annotation=SWQG3IR7)) Les autrices montrent que le changement doit être global : il faut transformer l'enseignement du métier, les lois et les pratiques de terrain. On peut se demander : comment l'institution archivistique peut-elle accepter une telle réforme en profondeur sans perdre son identité traditionnelle ?
+#Synthèse :
+
+L’Archive : du "Pouvoir" au "Soin"
+1. Le constat :
+L’archivistique traditionnelle est trop rigide (« langue du père »). En voulant être neutre et objective, elle a fini par oublier les humains et par faire taire l’histoire des communautés marginalisées.
+
+2. La solution : L’éthique du soin
+C’est passer à la « langue de la mère ». L’archive devient un « espace chaud » où l’on ne gère plus seulement des boîtes, mais des relations humaines. On privilégie l’empathie, l’écoute et le sentiment d’être reconnu.
+
+3. Le nouveau rôle de l’archiviste :
+
+Partenaire, pas patron : Il partage son savoir technique pour que la communauté soit autonome.
+
+Médiateur : Il répare les injustices du passé en redonnant une place aux voix oubliées.
+
+Responsable : Il protège les documents ET les personnes qui y sont liées.
+
+Contrairement à l'autrice, je penses que cette transition n'est pas si compliquée : si l'archiviste choisit l'éthique du soin, le passage vers un rôle de médiateur transparent devient naturel et fluide.
+
+En résumé : L'archive n'est plus un stock de papiers morts, c'est un projet vivant de justice sociale.
