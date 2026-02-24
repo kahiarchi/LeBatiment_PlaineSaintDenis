@@ -16,3 +16,24 @@
 « Les populations à statut socio-économique précaire ou les groupes marginalisés peuvent se retrouver exclus des bénéfices » ([Nikabou, 2025, p. 11](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=11&annotation=FMVKZMCK)) L'IA ne doit pas devenir un facteur d'accélération des inégalités sociales de santé
 
 « La responsabilité en cas de défaillance des systèmes d’IA reste également un sujet de débat intense, » ([Nikabou, 2025, p. 12](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=12&annotation=KZVPTEGD)) n cas d'erreur de diagnostic, qui est responsable ? Le développeur, le médecin ou l'hôpital ?
+
+
+
+
+# Synthèse 
+
+L’article met en évidence que la gouvernance des données de santé à l’ère de l’IA repose d’abord sur un socle juridique solide, notamment le RGPD, devenu une référence mondiale en matière de protection des données sensibles. Toutefois, si ce cadre constitue une base incontournable, il apparaît insuffisant face aux nouveaux usages liés à la santé connectée et aux dispositifs numériques privés, que des cadres plus anciens comme le HIPAA peinent à encadrer efficacement sans basculer vers une logique de surveillance intrusive.
+
+Face à ces limites, l’article souligne que la régulation ne peut plus être uniquement juridique et statique. Elle doit devenir flexible, évolutive et interdisciplinaire afin d’accompagner l’innovation technologique. Dans cette perspective, le Federated Learning apparaît comme un pivot technologique stratégique, permettant de concilier exploitation des big data médicales et respect du secret médical grâce à une architecture décentralisée.
+
+Sur le plan éthique, l’analyse insiste sur la transformation du rôle du patient : à travers l’éthique du Care, celui-ci n’est plus un simple objet de collecte de données, mais devient partenaire de soin et acteur de la gouvernance. Cette évolution renforce la légitimité démocratique des politiques de santé.
+
+Cependant, plusieurs défis majeurs persistent :
+
+l’opacité algorithmique, qui menace la confiance et impose d’exiger une IA explicable dès la conception ;
+
+le risque d’amplification des inégalités sociales de santé, si l’IA bénéficie principalement aux populations déjà favorisées ;
+
+et l’incertitude autour de la responsabilité juridique en cas d’erreur diagnostique impliquant un système d’IA.
+
+L’enjeu central est d’éviter que l’IA ne fragilise la confiance, tout en permettant qu’elle serve réellement l’intérêt collectif.
