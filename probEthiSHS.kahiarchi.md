@@ -56,21 +56,4 @@
 « cette transformation exige une réévaluation critique de la praxis archivistique, une réforme de la formation professionnelle, un engagement accru avec les communautés et l’élaboration de politiques et de directives qui mettent l’accent sur le soin et l’inclusion, en veillant à ce que les processus archivistiques prennent en considération les besoins et les perspectives de toutes les communautés concernées. » ([Tognoli, 2025, p. 7](zotero://select/library/items/KYBSWMKE)) ([pdf](zotero://open-pdf/library/items/YR3Q6EI9?page=8&annotation=SWQG3IR7)) Les autrices montrent que le changement doit être global : il faut transformer l'enseignement du métier, les lois et les pratiques de terrain. On peut se demander : comment l'institution archivistique peut-elle accepter une telle réforme en profondeur sans perdre son identité traditionnelle ?
 # Synthèse :
 
-L’Archive : du "Pouvoir" au "Soin"
-1. Le constat :
-L’archivistique traditionnelle est trop rigide (« langue du père »). En voulant être neutre et objective, elle a fini par oublier les humains et par faire taire l’histoire des communautés marginalisées.
-
-2. La solution : L’éthique du soin
-C’est passer à la « langue de la mère ». L’archive devient un « espace chaud » où l’on ne gère plus seulement des boîtes, mais des relations humaines. On privilégie l’empathie, l’écoute et le sentiment d’être reconnu.
-
-3. Le nouveau rôle de l’archiviste :
-
-Partenaire, pas patron : Il partage son savoir technique pour que la communauté soit autonome.
-
-Médiateur : Il répare les injustices du passé en redonnant une place aux voix oubliées.
-
-Responsable : Il protège les documents ET les personnes qui y sont liées.
-
-Contrairement à l'autrice, je penses que cette transition n'est pas si compliquée : si l'archiviste choisit l'éthique du soin, le passage vers un rôle de médiateur transparent devient naturel et fluide.
-
-En résumé : L'archive n'est plus un stock de papiers morts, c'est un projet vivant de justice sociale.
+L’archivistique traditionnelle, trop centrée sur la neutralité et l’autorité institutionnelle, a souvent oublié les dimensions humaines et les histoires des communautés marginalisées. L’approche de l’éthique du soin propose de transformer l’archive en un espace plus humain, fondé sur l’écoute, l’empathie et la reconnaissance. Dans cette perspective, l’archiviste devient un partenaire qui partage son savoir, un médiateur qui redonne une place aux voix oubliées et un responsable qui protège à la fois les documents et les personnes concernées. Ainsi, l’archive n’est plus seulement un lieu de stockage, mais un projet vivant de mémoire et de justice sociale.
