@@ -1,6 +1,8 @@
 # Annotations  
 (24/02/2026 23:42:24)
 
+https://journals.openedition.org/ctd/15227
+
 « marqué par l’émergence d’une approche transformatrice de la praxis visant à promouvoir l’inclusion et la justice sociale à travers la reconfiguration des archives et de leurs documents. » ([Tognoli, 2025, p. 1](zotero://select/library/items/KYBSWMKE)) ([pdf](zotero://open-pdf/library/items/YR3Q6EI9?page=2&annotation=RD8BDH2Q)) La reconfiguration des archives consiste à préserver la mémoire et les droits des groupes marginalisés pour rétablir une justice sociale.
 
 « repenser en profondeur les dynamiques de pouvoir présentes dans les archives : de leurs fonctions fondamentales de production, d’organisation, de préservation et de diffusion des fonds et collections dans les institutions traditionnelles, jusqu’aux pratiques émergentes des archives communautaires. » ([Tognoli, 2025, p. 1](zotero://select/library/items/KYBSWMKE)) ([pdf](zotero://open-pdf/library/items/YR3Q6EI9?page=2&annotation=3SE6PITH)) La solution est de donner le pouvoir à toutes les communautés concernées et de ne pas laisser le monopole aux seuls archivistes.
