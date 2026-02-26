@@ -3,7 +3,7 @@
 
 « Le Règlement général sur la protection des données (RGPD), » ([Nikabou, 2025, p. 3](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=3&annotation=QPL9I3QW)) C'est le socle incontournable qui définit la norme mondiale pour la protection des données sensibles.
 
-« le HIPAA demeure limité dans sa capacité à encadrer les usages contemporains des données » ([Nikabou, 2025, p. 3](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=3&annotation=JYD5S7E8)) Comment réguler efficacement la "santé connectée" privée sans tomber dans une surveillance intrusive ?
+« le HIPAA demeure limité dans sa capacité à encadrer les usages contemporains des données » ([Nikabou, 2025, p. 3](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=3&annotation=JYD5S7E8)) Comment réguler efficacement la "santé connectée" privée sans tomber dans une surveillance intrusive ? .... C'est chercher le juste milieu entre protéger l'utilisateur et laisser la technologie progresser.
 
 « L’accent est désormais mis sur la flexibilité, l’ouverture éthique et l’hybridation des savoirs, » ([Nikabou, 2025, p. 4](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=4&annotation=UM5W3XTS)) La régulation ne peut plus être uniquement juridique , elle doit être dynamique pour suivre l'innovation
 
@@ -15,14 +15,14 @@
 
 « Les populations à statut socio-économique précaire ou les groupes marginalisés peuvent se retrouver exclus des bénéfices » ([Nikabou, 2025, p. 11](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=11&annotation=FMVKZMCK)) L'IA ne doit pas devenir un facteur d'accélération des inégalités sociales de santé
 
-« La responsabilité en cas de défaillance des systèmes d’IA reste également un sujet de débat intense, » ([Nikabou, 2025, p. 12](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=12&annotation=KZVPTEGD)) n cas d'erreur de diagnostic, qui est responsable ? Le développeur, le médecin ou l'hôpital ?
+« La responsabilité en cas de défaillance des systèmes d’IA reste également un sujet de débat intense, » ([Nikabou, 2025, p. 12](zotero://select/library/items/DAD7MWVZ)) ([pdf](zotero://open-pdf/library/items/TB6KCMI6?page=12&annotation=KZVPTEGD)) en cas d'erreur de diagnostic, qui est responsable ? Le développeur, le médecin ou l'hôpital ?... Il y' a une responsabilité partagée
 
 
 
 
 # Synthèse 
 
-L’article met en évidence que la gouvernance des données de santé à l’ère de l’IA repose d’abord sur un socle juridique solide, notamment le RGPD, devenu une référence mondiale en matière de protection des données sensibles. Toutefois, si ce cadre constitue une base incontournable, il apparaît insuffisant face aux nouveaux usages liés à la santé connectée et aux dispositifs numériques privés, que des cadres plus anciens comme le HIPAA peinent à encadrer efficacement sans basculer vers une logique de surveillance intrusive.
+L’article met en évidence que la gouvernance des données de santé à l’ère de l’IA repose d’abord sur un socle juridique solide, notamment le RGPD, devenu une référence mondiale en matière de protection des données sensibles. Toutefois, si ce cadre constitue une base incontournable, il apparaît insuffisant face aux nouveaux usages liés à la santé connectée et aux dispositifs numériques privés, que des cadres plus anciens comme le HIPAA .
 
 Face à ces limites, l’article souligne que la régulation ne peut plus être uniquement juridique et statique. Elle doit devenir flexible, évolutive et interdisciplinaire afin d’accompagner l’innovation technologique. Dans cette perspective, le Federated Learning apparaît comme un pivot technologique stratégique, permettant de concilier exploitation des big data médicales et respect du secret médical grâce à une architecture décentralisée.
 
@@ -30,9 +30,9 @@ Sur le plan éthique, l’analyse insiste sur la transformation du rôle du pati
 
 Cependant, plusieurs défis majeurs persistent :
 
-l’opacité algorithmique, qui menace la confiance et impose d’exiger une IA explicable dès la conception ;
+- l’opacité algorithmique, qui menace la confiance et impose d’exiger une IA explicable dès la conception ;
 
-le risque d’amplification des inégalités sociales de santé, si l’IA bénéficie principalement aux populations déjà favorisées ;
+- le risque d’amplification des inégalités sociales de santé, si l’IA bénéficie principalement aux populations déjà favorisées ;
 
 et l’incertitude autour de la responsabilité juridique en cas d’erreur diagnostique impliquant un système d’IA.
 
