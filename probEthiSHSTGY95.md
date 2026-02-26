@@ -1,6 +1,8 @@
 # Article : Gouvernance de l’IA en santé : médiationséthiques et modèles décentralisés
 Par : Mayi Marlene Nikabou Doctorante en Sciences de l'Information et de la Communication.
 
+https://journals.openedition.org/ctd/15772
+
 
 # Annotations  
 (24/02/2026 15:05:08)
