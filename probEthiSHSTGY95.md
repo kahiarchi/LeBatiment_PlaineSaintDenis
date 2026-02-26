@@ -26,7 +26,7 @@ Par : Mayi Marlene Nikabou Doctorante en Sciences de l'Information et de la Comm
 
 # Synthèse 
 
-L’article met en évidence que la gouvernance des données de santé à l’ère de l’IA repose d’abord sur un socle juridique solide, notamment le RGPD, devenu une référence mondiale en matière de protection des données sensibles. Toutefois, si ce cadre constitue une base incontournable, il apparaît insuffisant face aux nouveaux usages liés à la santé connectée et aux dispositifs numériques privés, que des cadres plus anciens comme le HIPAA .
+L’article met en évidence que la gouvernance des données de santé à l’ère de l’IA repose d’abord sur un socle juridique solide, notamment le RGPD, devenu une référence mondiale en matière de protection des données sensibles , et comment construire une gouvernance des données de santé qui profite des révolutions de l'Intelligence Artificielle tout en restant fidèle à l'éthique humaine et à la protection de la vie privée.
 
 Face à ces limites, l’article souligne que la régulation ne peut plus être uniquement juridique et statique. Elle doit devenir flexible, évolutive et interdisciplinaire afin d’accompagner l’innovation technologique. Dans cette perspective, le Federated Learning apparaît comme un pivot technologique stratégique, permettant de concilier exploitation des big data médicales et respect du secret médical grâce à une architecture décentralisée.
 
